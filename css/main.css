@@ -1,0 +1,152 @@
+@font-face {
+  font-family: headerFont;
+  src: url("../font/copperplate.ttf");
+  font-weight: bold; }
+@font-face {
+  font-family: mainFont;
+  src: url("../font/din-condensed.ttf"); }
+body {
+  background-image: url(../img/pinstripe.png);
+  padding-top: 0; }
+
+.btn-large,
+.btn {
+  background-color: #012642;
+  color: white; }
+
+.btn,
+.btn-large:hover {
+  background-color: #012642;
+  color: gold; }
+
+.hidden {
+  display: none; }
+
+.container {
+  width: 85%; }
+
+.active {
+  background-color: #BA991F; }
+
+h1 {
+  font-family: headerFont; }
+
+p {
+  font-family: mainFont; }
+
+.banner {
+  background-image: url(../img/pinstripe.png);
+  height: auto; }
+  .banner .nav-wrapper #logo {
+    height: auto;
+    display: inline-block;
+    height: 150px;
+    vertical-align: middle; }
+  .banner .nav-wrapper h1 {
+    display: inline-block;
+    color: #012642;
+    vertical-align: middle; }
+
+nav {
+  display: table;
+  background-color: #012642;
+  margin-bottom: 0;
+  font-family: mainFont;
+  width: 100%; }
+  nav li {
+    width: 12.5%; }
+    nav li a {
+      font-size: 1.8em;
+      text-align: center;
+      text-transform: uppercase; }
+
+nav {
+  display: table;
+  background-color: #BA991F;
+  margin-bottom: 0;
+  font-family: mainFont;
+  width: 100%; }
+  nav li:hover {
+    width: 12.5%; }
+    nav li:hover a {
+      font-size: 1.8em;
+      text-align: center;
+      color: #012642;
+      text-transform: uppercase; }
+
+#login {
+  background-color: #012642; }
+
+#login a:hover {
+  color: white; }
+
+.slider .slides li img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: top; }
+
+.slider .slides {
+  background-color: #9e9e9e;
+  margin: 0;
+  height: 100%; }
+
+.slider .slides li .caption p {
+  color: black;
+  font-size: 1.7em;
+  padding: 0.3em; }
+
+.waves-effect.waves-light.card {
+  width: 200px;
+  text-align: center; }
+
+.social-home .card,
+.bottom-row .card {
+  min-height: 200px;
+  background-color: rgba(186, 153, 31, 0.89); }
+
+.blog-card {
+  padding: 2em; }
+
+.blog-image {
+  float: left;
+  margin-right: 1em; }
+  .blog-image img {
+    max-height: 350px;
+    padding: 1em; }
+
+.header {
+  font-family: mainFont;
+  text-transform: uppercase;
+  font-size: 2.4em; }
+
+.twitter-col .card {
+  padding: 2em; }
+
+.sponsor-card {
+  padding: 2em; }
+  .sponsor-card img {
+    max-width: 100%; }
+
+.tour-card {
+  padding: 2em; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 9999; }
+
+.about-title {
+  position: relative;
+  z-index: 99999;
+  color: white;
+  padding-left: 10%;
+  text-shadow: 2px 2px 2px black; }
+
+.parallax .bottom {
+  padding-top: 6em; }
+
+#about1 p {
+  font-size: 1.4em; }
+
+/*# sourceMappingURL=main.css.map */

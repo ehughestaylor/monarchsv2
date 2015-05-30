@@ -1,0 +1,210 @@
+// UNIVERSAL STYLES
+@font-face {
+  font-family: headerFont;
+  src: url("../font/copperplate.ttf");
+  font-weight: bold; }
+@font-face {
+  font-family: mainFont;
+  src: url("../font/din-condensed.ttf"); }
+
+$navy:#012642;
+$gold:#BA991F;
+
+body{
+  background-image: url(../img/pinstripe.png);
+  padding-top: 0;
+}
+.btn-large,
+.btn{
+  background-color:$navy;
+  color: white;
+}
+.btn,
+.btn-large:hover{
+  background-color:$navy;
+  color: gold;
+}
+.hidden{
+  display: none;
+}
+
+.container{
+  width: 85%;
+}
+.active{
+  background-color: $gold;
+}
+
+h1{
+  font-family:headerFont;
+}
+p{
+  font-family:mainFont;
+}
+
+// top banner
+
+.banner{
+  background-image:url(../img/pinstripe.png);
+  height: auto;
+.nav-wrapper{
+  #logo{
+    height: auto;
+    display: inline-block;
+    height: 150px;
+    vertical-align: middle;
+  }
+  h1{
+    display: inline-block;
+    color: $navy;
+    vertical-align: middle;
+  }
+}
+}
+
+
+
+// navigation
+nav{
+  display: table;
+  background-color: $navy;
+  margin-bottom: 0;
+  font-family: mainFont;
+  width: 100%;
+  li{
+    width:12.5%;
+    a{
+      font-size: 1.8em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}
+nav{
+  display: table;
+  background-color: $gold;
+  margin-bottom: 0;
+  font-family: mainFont;
+  width: 100%;
+  li:hover{
+    width:12.5%;
+    a{
+      font-size: 1.8em;
+      text-align: center;
+      color: $navy;
+      text-transform: uppercase;
+    }
+  }
+}
+#login{
+  background-color:$navy;
+}
+
+#login{
+  a:hover{
+    color:white;
+  }
+}
+
+
+///slider
+.slider .slides li img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+}
+.slider .slides {
+  background-color: #9e9e9e;
+  margin: 0;
+  height: 100%;
+}
+.slider .slides li .caption p {
+  color: black;
+  font-size: 1.7em;
+  padding: 0.3em;
+}
+.waves-effect.waves-light.card {
+  width: 200px;
+  text-align: center;
+}
+
+///SOCIAL ROW BLOG AND TWITTER FEED
+
+.social-home,
+.bottom-row{
+  .card{
+    min-height: 200px;
+    background-color:rgba(186,153,31,0.89)
+  }
+}
+
+.blog-card{
+  padding:2em;
+}
+
+.blog-image{
+  float: left;
+  margin-right: 1em;
+  img{
+    max-height: 350px;
+    padding:1em;
+  }
+}
+
+.header{
+  font-family: mainFont;
+  text-transform: uppercase;
+  font-size: 2.4em;
+}
+
+// Twitter card 
+
+.twitter-col{
+  .card{
+    padding: 2em;
+  }
+}
+
+
+//FEATURED ROW SPONSORS AND TOUR
+//Sponsors
+.sponsor-card{
+  padding:2em;
+  img{
+    max-width: 100%;
+  }
+}
+
+//Tour Card 
+.tour-card{
+  padding:2em;
+}
+
+
+// sticky header
+.sticky{
+  position: fixed;
+  top: 0;
+  z-index:9999;
+}
+
+////////////ABOUT US PAGE
+
+.about-title{
+ position:relative;
+ z-index:99999; 
+ color: white;
+ padding-left: 10%;
+ text-shadow: 2px 2px 2px black;
+}
+.parallax{
+  .bottom{
+    padding-top: 6em;
+  }
+}
+#about1{
+  p{
+    font-size: 1.4em;
+  }
+}
