@@ -12,14 +12,11 @@ var animatePoints = function(){
     }
   });
 }
-var playersFunction =function(){
-    // $('#player-container').hide();
-
-}
 
 $(document).ready(function(){
   $(".button-collapse").sideNav();
   $('.parallax').parallax();
+  $('.modal-trigger').leanModal();
   animatePoints();
   playersFunction();
 

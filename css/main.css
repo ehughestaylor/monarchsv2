@@ -234,7 +234,8 @@ nav {
   font-size: 1.5em;
   display: none; }
   .team-btn .btn-large, .team-btn .btn {
-    color: white; }
+    color: white;
+    font-size: 1.5em; }
 
 #social {
   margin: 0;
@@ -243,10 +244,29 @@ nav {
   top: 50%; }
   #social li {
     background-color: #012642;
-    font-size: 1.8em; }
+    font-size: 1.6em; }
     #social li i {
-      font-size: 1.4em;
+      display: block;
+      font-size: 1.2em;
       padding: 0.5em;
       color: white; }
+
+.waves-effect:hover {
+  background-color: #BA991F; }
+
+.modal.bottom-sheet {
+  height: 80%;
+  max-height: 80%;
+  background-image: url(../img/pinstripe.png); }
+  .modal.bottom-sheet .player-container {
+    overflow-y: scroll;
+    white-space: nowrap;
+    width: auto; }
+  .modal.bottom-sheet .player {
+    background-color: #012642;
+    display: inline-block; }
+    .modal.bottom-sheet .player .card {
+      height: 400px;
+      width: 400px; }
 
 /*# sourceMappingURL=main.css.map */
