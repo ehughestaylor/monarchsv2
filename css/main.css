@@ -7,7 +7,8 @@
   src: url("../font/din-condensed.ttf"); }
 body {
   background-image: url(../img/pinstripe.png);
-  padding-top: 0; }
+  padding-top: 0;
+  padding-bottom: 0; }
 
 .btn-large,
 .btn {
@@ -28,10 +29,18 @@ body {
 .active {
   background-color: #BA991F; }
 
+.card-panel {
+  background-color: #012642; }
+
 h1 {
   font-family: headerFont; }
 
 p {
+  font-family: mainFont; }
+
+.page-footer {
+  background-color: #012642 !important;
+  margin: 0 !important;
   font-family: mainFont; }
 
 .banner {
@@ -41,7 +50,8 @@ p {
     height: auto;
     display: inline-block;
     height: 150px;
-    vertical-align: middle; }
+    vertical-align: middle;
+    margin: 1em 0; }
   .banner .nav-wrapper h1 {
     display: inline-block;
     color: #012642;
@@ -123,6 +133,25 @@ nav {
 .twitter-col .card {
   padding: 2em; }
 
+.contact-card {
+  padding: 2em;
+  position: relative; }
+
+.contact {
+  position: absolute;
+  bottom: 0; }
+
+#contact-foot {
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+  #contact-foot i {
+    font-size: 2.4em;
+    display: block;
+    color: #012642; }
+    #contact-foot i a {
+      color: #012642; }
+
 .sponsor-card {
   padding: 2em; }
   .sponsor-card img {
@@ -148,5 +177,76 @@ nav {
 
 #about1 p {
   font-size: 1.4em; }
+
+.header-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-size: 100%;
+  background-position: center;
+  height: 300px; }
+  .header-container h1 {
+    margin: 0;
+    color: white;
+    font-size: 3.2em; }
+
+#tour-container {
+  width: 100%; }
+  #tour-container .header {
+    font-size: 3.7em; }
+  #tour-container .collapsible-header {
+    background-color: #012642;
+    color: white; }
+    #tour-container .collapsible-header i {
+      color: white; }
+    #tour-container .collapsible-header p {
+      color: white;
+      font-family: mainFont; }
+
+.collapsible li {
+  background-color: rgba(186, 153, 31, 0.89); }
+
+.header-collapse {
+  font-family: mainFont;
+  padding: 0;
+  margin: 0; }
+
+#tour-container .card-panel {
+  padding: 0; }
+  #tour-container .card-panel img {
+    width: 100%; }
+  #tour-container .card-panel p {
+    font-size: 1.3em;
+    padding: 0.6rem; }
+
+.popout-img-bg {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%; }
+
+.team-btn {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  font-family: mainFont;
+  color: white;
+  font-size: 1.5em;
+  display: none; }
+  .team-btn .btn-large, .team-btn .btn {
+    color: white; }
+
+#social {
+  margin: 0;
+  position: fixed;
+  left: 0;
+  top: 50%; }
+  #social li {
+    background-color: #012642;
+    font-size: 1.8em; }
+    #social li i {
+      font-size: 1.4em;
+      padding: 0.5em;
+      color: white; }
 
 /*# sourceMappingURL=main.css.map */
