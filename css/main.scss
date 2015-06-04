@@ -15,6 +15,9 @@ body{
   padding-top: 0;
   padding-bottom:0;
 }
+.button-collapse{
+  padding:0 1em;
+}
 .btn-large,
 .btn{
   background-color:$navy;
@@ -51,6 +54,9 @@ p{
   margin:0!important;
   font-family: mainFont;
 }
+li{
+  list-style-type: none;
+}
 
 // top banner
 
@@ -70,7 +76,11 @@ p{
     color: $navy;
     vertical-align: middle;
   }
+  }
 }
+.brandLogo{
+  float: right;
+  position:relative;
 }
 
 
@@ -78,7 +88,7 @@ p{
 // navigation
 nav{
   display: table;
-  background-color: $navy;
+  background-color: rgba(186,153,31,0.89);
   margin-bottom: 0;
   font-family: mainFont;
   width: 100%;
@@ -93,7 +103,7 @@ nav{
 }
 nav{
   display: table;
-  background-color: $gold;
+  background-color: rgba(186,153,31,0.89);
   margin-bottom: 0;
   font-family: mainFont;
   width: 100%;
@@ -243,7 +253,21 @@ nav{
     font-size: 1.4em;
   }
 }
-
+#aboutUs{
+  .icon-block{
+    padding:20px;
+  }
+  h2{
+    font-size: 4.3em;
+  }
+  h5{
+    font-family: mainFont;
+    text-transform: uppercase;
+  }
+  p{
+    font-size:1.3em;
+  }
+}
 ///////////////////////////////////////////////////////TOUR PAGE 
 .header-container{
   width:100%;
@@ -361,7 +385,6 @@ nav{
     display: inline-block;
     .card{
       height: 400px;
-      width: 400px;
       .card-image{
         img{
         }
@@ -372,6 +395,17 @@ nav{
 
 
 
+
+/////////////// MEDIA QUERIES
+// Small screens are defined as having a max-width of 600px 
+// Medium screens are defined as having a max-width of 992px 
+// Large screen are defined as having a min-width of 992px
+
+@media (max-width:992px){
+  .banner{
+    display: none;
+  }
+}
 
 
 
