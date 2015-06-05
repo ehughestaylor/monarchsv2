@@ -370,9 +370,10 @@ nav{
 
 // TEAM SECTION
 .modal.bottom-sheet{
-  height: 80%;
-  max-height: 80%;
+  height: 90%;
+  max-height: 90%;
   background-image:url(../img/pinstripe.png);
+  overflow-y: hidden;
   
   .player-container{
     overflow-y: scroll;
@@ -384,9 +385,10 @@ nav{
     background-color:$navy;
     display: inline-block;
     .card{
-      height: 400px;
       .card-image{
+        height: 478px;
         img{
+          width: 400px;
         }
       }
     }
