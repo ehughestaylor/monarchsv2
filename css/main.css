@@ -312,7 +312,7 @@ nav {
 @media (max-width: 500px) {
   #rightsMatter h3 {
     font-size: 0.8em; } }
-@media (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .parallax .header {
     font-size: 2.2em; } }
 
