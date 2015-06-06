@@ -14,6 +14,8 @@ var animatePoints = function(){
 }
 
 $(document).ready(function(){
+  $(".dropdown-button").dropdown();
+  
   $(".button-collapse").sideNav();
   $('.parallax').parallax();
   $('.modal-trigger').leanModal();

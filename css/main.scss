@@ -25,6 +25,9 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 $navy:#012642;
 $gold:#BA991F;
 
+$tabs-underline-color: $gold!important;
+
+
 body{
   background-image: url(../img/pinstripe.png);
   padding-top: 0;
@@ -56,6 +59,8 @@ body{
 .card-panel{
   background-color: $navy;
 }
+
+// FONTS
 
 h1{
   font-family:headerFont;
@@ -153,6 +158,36 @@ nav{
     color:white;
   }
 }
+
+
+//DROPDOWN CONTENT
+.dropdown-content li>a,
+.dropdown-content li>span, {
+  font-size: 1.2rem!important;
+  color: white!important;
+  display: block!important;
+  padding: 1rem 1rem!important;
+  position:relative!important;
+}
+.dropdown-content li>a:hover,
+.dropdown-content li>span:hover, {
+  font-size: 1.2rem!important;
+  color: $navy!important;
+  display: block!important;
+  padding: 1rem 1rem!important;
+  position:relative!important;  
+}
+.dropdown-content li {
+  clear: both!important;
+  color: rgba(0,0,0,0.87)!important;
+  cursor: pointer!important;
+  line-height: 1.5rem!important;
+  width: 100%!important;
+  text-align: center!important;
+  text-transform: none!important;
+}
+
+
 
 
 ///slider
@@ -421,6 +456,47 @@ nav{
   }
 }
 
+/////////////////////////BLOG ANd News
+.tabs{
+  animation:none;
+  transition: none;
+}
+
+.tabs .tab a{
+  font-family: mainFont;
+  color: $navy ;
+  font-size: 1.7em;
+  transition: $navy .28s ease;
+  animation: none;
+    transition: none;
+}
+.tabs .tab:hover a{
+  font-family: mainFont;
+  color: $navy ;
+  font-size: 1.7em;
+}
+
+//story
+.story{
+  .story-title{
+    font-size: 3,9em;
+    font-family: headerFont;
+    padding:0.5em;
+    text-align: center;
+  }
+  .story-content{
+    font-size: 1.2em;
+  }
+}
+
+
+#blogPosts{
+  background-color:$gold;
+}
+#newsPosts{
+  background-color:$navy;
+  color: white;
+}
 
 
 
@@ -470,6 +546,9 @@ nav{
     .header{
       font-size: 2.2em;
     }
+  }
+  .team-btn{
+    transform: rotate(90deg);
   }
 }
 

@@ -21,6 +21,9 @@
   });
 
  $(document).ready(function(){
+  
+  $(".dropdown-button").dropdown();
+
   animatePoints();
   $(".button-collapse").sideNav();
   $('.parallax').parallax();

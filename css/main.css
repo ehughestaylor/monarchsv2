@@ -111,6 +111,31 @@ nav {
 #login a:hover {
   color: white; }
 
+.dropdown-content li > a,
+.dropdown-content li > span {
+  font-size: 1.2rem !important;
+  color: white !important;
+  display: block !important;
+  padding: 1rem 1rem !important;
+  position: relative !important; }
+
+.dropdown-content li > a:hover,
+.dropdown-content li > span:hover {
+  font-size: 1.2rem !important;
+  color: #012642 !important;
+  display: block !important;
+  padding: 1rem 1rem !important;
+  position: relative !important; }
+
+.dropdown-content li {
+  clear: both !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  cursor: pointer !important;
+  line-height: 1.5rem !important;
+  width: 100% !important;
+  text-align: center !important;
+  text-transform: none !important; }
+
 .slider .slides li img {
   height: 100%;
   width: 100%;
@@ -300,6 +325,38 @@ nav {
     .modal.bottom-sheet .player .card .card-image {
       height: 478px; }
 
+.tabs {
+  animation: none;
+  transition: none; }
+
+.tabs .tab a {
+  font-family: mainFont;
+  color: #012642;
+  font-size: 1.7em;
+  transition: #012642 0.28s ease;
+  animation: none;
+  transition: none; }
+
+.tabs .tab:hover a {
+  font-family: mainFont;
+  color: #012642;
+  font-size: 1.7em; }
+
+.story .story-title {
+  font-size: 3,9em;
+  font-family: headerFont;
+  padding: 0.5em;
+  text-align: center; }
+.story .story-content {
+  font-size: 1.2em; }
+
+#blogPosts {
+  background-color: #BA991F; }
+
+#newsPosts {
+  background-color: #012642;
+  color: white; }
+
 @media (max-width: 992px) {
   .banner {
     display: none; }
@@ -314,6 +371,9 @@ nav {
     font-size: 0.8em; } }
 @media only screen and (max-width: 600px) {
   .parallax .header {
-    font-size: 2.2em; } }
+    font-size: 2.2em; }
+
+  .team-btn {
+    transform: rotate(90deg); } }
 
 /*# sourceMappingURL=main.css.map */
