@@ -6,6 +6,7 @@
   font-family: mainFont;
   src: url("../font/din-condensed.ttf"); }
 body {
+  background-color: #012642;
   background-image: url(../img/pinstripe.png);
   padding-top: 0;
   padding-bottom: 0; }
