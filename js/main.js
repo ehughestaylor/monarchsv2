@@ -6,7 +6,7 @@
 
   var animatePoints = function(){
     var waypoint = new Waypoint({
-    element: document.getElementById('nav'),
+    element: document.getElementById('slider'),
     handler: function() {
       $('#nav').toggleClass('sticky');
     }
