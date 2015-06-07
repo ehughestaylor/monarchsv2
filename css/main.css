@@ -47,6 +47,14 @@ p {
   margin: 0 !important;
   font-family: mainFont; }
 
+.footer-contact a {
+  color: #BA991F;
+  font-size: 1.4em; }
+  .footer-contact a i {
+    padding: 5px; }
+.footer-contact a:hover {
+  color: white; }
+
 li {
   list-style-type: none !important; }
 
@@ -70,6 +78,17 @@ li {
 .brandLogo {
   float: right;
   position: relative; }
+
+#dropDown1 {
+  z-index: 9999; }
+
+.side-nav a {
+  color: #444;
+  display: block;
+  font-size: 2rem;
+  height: 72px;
+  line-height: 72px;
+  padding: 0 28px; }
 
 #donate {
   position: absolute;
@@ -324,7 +343,8 @@ nav {
     background-color: #012642;
     display: inline-block; }
     .modal.bottom-sheet .player .card .card-image {
-      height: 478px; }
+      height: 478px;
+      text-align: center; }
 
 .tabs {
   animation: none;
@@ -370,11 +390,42 @@ nav {
 @media (max-width: 500px) {
   #rightsMatter h3 {
     font-size: 0.8em; } }
+@media only screen and (max-width: 992px) {
+  #location {
+    display: none; }
+
+  .sponsor-home .card-content {
+    display: none; }
+  .sponsor-home #contact-foot {
+    padding: 0;
+    position: relative; } }
 @media only screen and (max-width: 600px) {
+  .container {
+    width: 96%; }
+
+  .card .card-content p {
+    margin: 0;
+    color: inherit;
+    font-size: 1.2em;
+    text-indent: 15px;
+    margin: 20px 0; }
+
   .parallax .header {
     font-size: 2.2em; }
 
   .team-btn {
-    transform: rotate(90deg); } }
+    transform: rotate(90deg); }
+
+  .slider .slides li .caption {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 14%;
+    width: 70%;
+    top: auto;
+    opacity: 0; }
+
+  ul#dropDown1 {
+    width: 180px !important; } }
 
 /*# sourceMappingURL=main.css.map */

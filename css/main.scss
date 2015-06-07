@@ -75,6 +75,22 @@ p{
   margin:0!important;
   font-family: mainFont;
 }
+
+.footer-contact{
+  a{
+    color: $gold;
+    font-size: 1.4em;
+    i{
+      padding:5px;
+    }
+  }
+  a:hover{
+    color: white;
+  }
+}
+
+
+
 li{
   list-style-type: none !important;
 }
@@ -106,6 +122,21 @@ li{
 .brandLogo{
   float: right;
   position:relative;
+}
+
+
+#dropDown1{
+  z-index: 9999;
+}
+/////////////// SIDENAV
+
+.side-nav a {
+  color: #444;
+  display: block;
+  font-size: 2rem;
+  height: 72px;
+  line-height: 72px;
+  padding: 0 28px;
 }
 
 #donate{
@@ -450,6 +481,7 @@ nav{
     .card{
       .card-image{
         height: 478px;
+        text-align: center;
         img{
         }
       }
@@ -541,8 +573,36 @@ nav{
 //   }
 // }
 
+@media #{$medium-and-down} {
+    // styles for small screens and down
+  #location{
+    display: none;
+  }
+  .sponsor-home{
+    .card-content{
+      display: none;
+    }
+    #contact-foot{
+      padding:0;
+      position: relative;
+    }
+  }
+}
 @media #{$small-and-down} {
     // styles for small screens and down
+    .container{
+      width:96%;
+    }
+
+  // read paragraphs easier on mobile
+  .card .card-content p {
+  margin: 0;
+  color: inherit;
+  font-size: 1.2em;
+  text-indent: 15px;
+  margin: 20px 0;
+}
+
   .parallax{
     .header{
       font-size: 2.2em;
@@ -551,6 +611,22 @@ nav{
   .team-btn{
     transform: rotate(90deg);
   }
+.slider .slides li .caption {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 14%;
+  width: 70%;
+  top: auto;
+  opacity: 0;
+}
+
+
+// MAKE MOBILE BAV DROPDOWN MORE READABLE
+
+ul#dropDown1 {
+  width: 180px!important;
+}
 }
 
 
