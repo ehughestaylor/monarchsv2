@@ -315,9 +315,30 @@ nav{
   }
 }
 
+
+#tourAccord{
+  border: none;
+  .middle{
+    text-transform: uppercase;
+  }
+  .collection{
+    margin:0;
+  }
+  .collapsible-header{
+  background-color: $navy;
+  color: white;
+  font-size: 1.2em;
+  }
+  .collection-item{
+    font-size: 1.2em;
+  }
+}
+
+
 //Tour Card 
 .tour-card{
   padding:2em;
+  font-family: mainFont;
 }
 
 
@@ -431,6 +452,8 @@ nav{
 .team-btn{
   position:fixed;
   right: 0;
+  margin:0;
+  transform: rotate(90deg);
   top: 50%;
   font-family: mainFont;
   color: white;
@@ -479,6 +502,29 @@ nav{
     background-color:$navy;
     display: inline-block;
     .card{
+      .card-title{
+        font-size: 2.5em;
+      }
+      .card-reveal{
+        background-color:$navy;
+        color: white;
+        font-family: mainFont;
+        font-size: 1.2em; 
+        overflow:hidden;
+        .card-title{
+          margin:0;
+        }
+        strong{
+          color: $gold;
+          margin-right: 0.91em;
+        }
+        p{
+          color: white;
+        }
+      }
+      .left{
+        margin-right: 1em;
+      }
       .card-image{
         height: 478px;
         text-align: center;
@@ -487,6 +533,10 @@ nav{
       }
     }
   }
+}
+
+.mdi-navigation-more-vert{
+  color: $gold;
 }
 
 /////////////////////////BLOG ANd News

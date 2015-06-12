@@ -69,12 +69,12 @@
     <!-- desktop nav -->
     
     <ul class="hide-on-med-and-down">
-      <li><a href="#">Home</a></li>
+      <li class="active"><a href="#">Home</a></li>
       <li><a href="about/index.html">About</a></li>
       <li><a href="blog/index.html">Blog</a></li>
       <li><a href="tour/index.html">Tour</a></li>
       <li><a class="dropdown-button" href="#!" data-activates="dropDown1">Programs</a></li>
-      <li class="active"><a href="#">History</a></li>
+      <li><a href="#">History</a></li>
       <li><a href="mailto:stevebandura@aol.com?subject=Volunteer">Volunteer</a></li>
       <li id="login"><a href="#">Login</a></li>
     </ul>
@@ -99,9 +99,9 @@
         <img src="img/robinson.jpg"> <!-- random image -->
         <div class="caption right-align">
           <div id="findOut" class="waves-effect waves-light card" style="width:235px;">
-            <p>Find out more about our
+            <a href="tour/index.html"><p>Find out more about our
             Barnstorming Tour
-            here!</p>
+            here!</p></a>
           </div>
         </div>
       </li>
@@ -185,33 +185,452 @@
             <h3 class="center-align header">Sponsors</h3>
             <div class="card sponsor-card">
               <div class="col s12 center-align">
-                <img src="img/chevy-logo.jpeg" alt="">
-                <img src="img/mlb-logo 2.jpg" alt="">
-                <img src="img/townsend.jpg" alt="">
-                <img src="img/easton-logo.jpg" alt="">
-                <img src="img/made-logo.jpg" alt="" style="background-color: white;
-  padding: 2em 4.1em;">
+                <a href="http://www.chevrolet.com/"><img src="img/chevy-logo.jpeg" alt="Chevy Logo"></a>
+                <a href="http://mlb.mlb.com/home"><img src="img/mlb-logo 2.jpg" alt="MLB LOGO"></a>
+                <a href="http://www.townsendpress.net/home"><img src="img/townsend.jpg" alt=""></a>
+                <a href="http://www.easton.com/"><img src="img/easton-logo.jpg" alt=""></a>
               </div>
             </div>
           </div>
         </div>
+
+
         <!-- FEATURED SECTION -->
+
         <div class="col s12 m8 featured-home">
-          <h3 class="center-align header">2015 Tour</h3>
+          <h3 class="center-align header">2015 Civil Rights Barnstorming Tour</h3>
           <div class="card tour-card">
             <div class="row row-top center-align"> 
               <!-- tour image -->
               <div class="col s12 m6">
-                <img class="responsive-img" src="img/broad_street.jpg" alt="">
+                <div class="section">
+                  <img class="responsive-img" src="img/broad_street.jpg" alt="">
+                  <img class="responsive-img" src="img/darius_bus.jpg" alt="">
+                </div>
               </div>
               <!-- tour dates -->
+              
               <div class="col s12 m6">
-                <img class="responsive-img z-depth-3" src="img/tour-dates.jpg" alt="" style="border-radius: 10px;">
+                <ul id="tourAccord" class="collapsible" data-collapsible="accordion">
+                  <!-- PHILLY -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Wed June 17th</span>
+                      <span class="middle"><strong>PHILADELPHIA</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>5:00 PM</div> Meet at Marian Anderson Recreation Center</li>
+                        <li class="collection-item"><div>6:00 PM</div> Depart for DC</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!-- DC -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Thu June 18th</span>
+                      <span class="middle"><strong>WASHINGTON DC</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>9:30 AM</div> White House Tour</li>
+                        <li class="collection-item"><div>1:00 PM</div>Meeting with Congressman <a href="">John Lewis</a></li>
+                        <li class="collection-item"><div>5:00 PM</div> Nationals/Rays Game (7:05 start)</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!-- DC DAY 2 -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Fri June 19th</span>
+                      <span class="middle"><strong>WASHINGTON DC - DAY 2</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>10:00 AM</div>Tour Nationals Academy</li>
+                        <li class="collection-item"><div>12:00 PM</div>Play Game at Nationals Academy</li>
+                        <li class="collection-item"><div>4:00 PM</div>Depart for Richmond VA</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!-- RICHMOND VS/ DURHAM -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Sat June 20th</span>
+                      <span class="middle"><strong>RICHMOND/VIRGINIA</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>10:00 AM</div>Play Game vs Metropolitan Junior Baseball League <a href="http://henrico.us/rec/places/rfp/">come watch!</a></li>
+                        <li class="collection-item"><div>1:00 PM</div>Depart for Durham</li>
+                        <li class="collection-item"><div>6:05 PM</div>Attend <a href="https://www.google.com/maps/place/200+Brooks+Park+Ln,+Cary,+NC+27519/@35.7988804,-78.8926359,17z/data=!3m1!4b1!4m2!3m1!1s0x89acec59361b143d:0x4f867cb49f3d3a78">USA Collegiate National Team Game</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!--DURHAM NC -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Sun June 21st</span>
+                      <span class="middle"><strong>DURHAM, NC</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>10:00 AM</div>Play Game vs Long Ball Program of Durham</li>
+                        <li class="collection-item"><div>1:00 PM</div>Visit UNC Chapel Hill or Duke Universityy</li>
+                        <li class="collection-item"><div>4:00 PM</div>Depart for Spartanburg</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!--SPARTANBURG SC -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Mon June 22nd</span>
+                      <span class="middle"><strong>Spartanburg, SC</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>10:00 AM</div>Tour <a href="   http://www.wofford.edu/">Wofford College</a></li>
+                        <li class="collection-item"><div>12:00 PM</div>Lunch on Campus</li>
+                        <li class="collection-item"><div>2:00 PM</div>Play game at Russell C. King Field - Wofford College</li>
+                        <li class="collection-item"><div>5:00 PM</div>Depart for Atlanta </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!--ATLANTA GA -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Tue June 23rd</span>
+                      <span class="middle"><strong>Atlanta, GA</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>10:00 AM</div>Visit <a href="https://www.google.com/maps/place/450+Auburn+Ave+NE,+Atlanta,+GA+30312/@33.7562991,-84.3734591,17z/data=!3m1!4b1!4m2!3m1!1s0x88f503f517344bc7:0x9f9d6bc3ca666f76">Martin Luther King National Historic Site</a></li>
+
+                        <li class="collection-item"><div>2:00 PM</div>Meet and greet with Hank Aaron at <a href="https://www.google.com/maps/place/755+Hank+Aaron+Dr+SE,+Atlanta,+GA+30315/@33.7361249,-84.389355,17z/data=!3m1!4b1!4m2!3m1!1s0x88f503a25f89305f:0x9b5cf464112e1b95">Turner Field</a></li>
+                        <li class="collection-item"><div>4:00 PM</div>Depart for Birmingham</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!--BIRMINGHAM ALABAMA -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Wed June 24th</span>
+                      <span class="middle"><strong>BIRMINGHAM, AL</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>10:00 AM</div>Visit <a href="https://www.google.com/maps/place/520+16th+St+N,+Birmingham,+AL+35203/@33.515927,-86.8150359,17z/data=!3m1!4b1!4m2!3m1!1s0x88891b8e8f155ca9:0x6e6a90a8bc9bafcc">Birmingham Civil Rights District</a>
+                        (16th Street Baptist Church, Kelly Ingram Park, Civil Rights Institute, etc.)
+                        </li>
+
+                        <li class="collection-item"><div>6:00 PM</div>Play Negro League tribute game vs Willie Mays RBI at <a href="https://www.google.com/maps/place/1137+2nd+Ave+W,+Birmingham,+AL+35204/@33.5032138,-86.8556913,17z/data=!3m1!4b1!4m2!3m1!1s0x88891c311338f6c7:0x9c30e5bf28a7cb7f">Rickwood Field</a></li>
+                        <li class="collection-item"><div>4:00 PM</div>Depart for Birmingham</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!--MONTGOMERY ALABAMA -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Thu June 25th</span>
+                      <span class="middle"><strong>MONTGOMERY, AL</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>11:30 AM</div>Tour Civil Rights Memorial at Souther Poverty Law Center, Rosa Parks Library and Museum at Troy University
+                        </li>
+
+                        <li class="collection-item"><div>7:05 PM</div>Attend Montgomery Biscuits/Chattanooga Lookouts Game at <a href="https://www.google.com/maps/place/200+Coosa+St,+Montgomery,+AL+36104/@32.381952,-86.310376,17z/data=!3m1!4b1!4m2!3m1!1s0x888e816586087cff:0xff89f0755a7f28f5">Riverwalk Stadium</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!--SELMA ALABAMA -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Fri June 26th</span>
+                      <span class="middle"><strong>SELMA, AL</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>9:00 AM</div>Depart for Selma
+                        </li>
+
+                        <li class="collection-item"><div>10:00 AM</div>Visit Edmund Pettus Bridge and National Voting Rights Museum</li>
+                        <li class="collection-item"><div>2:00 PM</div>Depart for Jacskson, MS</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!--JACKSON MS -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Sat June 27th</span>
+                      <span class="middle"><strong>JACKSON, MS</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>9:00 AM</div>Visit Medgar Evers Home Museum
+                        </li>
+                        <li class="collection-item"><div>12:00 PM</div>Play game vs Richland Junkstarz</li>
+                        <li class="collection-item"><div>4:00 PM</div>Depart for Pine Bluff, AR</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!-- LITTLE ROCK ARKANSAS -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Sun June 28th</span>
+                      <span class="middle"><strong>LITTLE ROCK, AR</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>8:00 AM</div>Depart for Little Rock
+                        </li>
+                        <li class="collection-item"><div>10:00 AM</div>Visit Little Rock Central High School National Historic Site</li>
+                        <li class="collection-item"><div>1:00 PM</div>Play game vs Little Rock RBI</li>
+                        <li class="collection-item"><div>6:10 PM</div>Attend Arkansas Travelers/Springfield game at <a href="https://www.google.com/maps/place/Arkansas+Travelers/@34.756138,-92.27139,17z/data=!3m1!4b1!4m2!3m1!1s0x87d2bc831945448b:0xf7f8d2c113434171">Dickey Stephens Park</a></li>                        
+                      </ul>
+                    </div>
+                  </li>
+                  <!--MEMPHIS TN / NASHVILLE -->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Mon June 29th</span>
+                      <span class="middle"><strong>MEMPHIS/ NASHVILLE, TN</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>8:00 AM</div>Depart for Memphis
+                        </li>
+                        <li class="collection-item"><div>12:00 PM</div>Visit National Civil Rights Museum at the Lorraine Hotel</li>
+                        <li class="collection-item"><div>3:00 PM</div>Depart for Nashville, TN</li>
+                        <li class="collection-item"><div>6:10 PM</div>Attend Arkansas Travelers/Springfield game at <a href="https://www.google.com/maps/place/Arkansas+Travelers/@34.756138,-92.27139,17z/data=!3m1!4b1!4m2!3m1!1s0x87d2bc831945448b:0xf7f8d2c113434171">Dickey Stephens Park</a></li>                        
+                      </ul>
+                    </div>
+                  </li>
+                  <!--LOUISVILLE, KY-->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Tue June 30th</span>
+                      <span class="middle"><strong>LOUISVILLE, KY</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>8:00 AM</div>Depart for Louisville
+                        </li>
+                        <li class="collection-item"><div>1:00 PM</div>Visit Ali Center</li>
+                        <li class="collection-item">
+                        <div>7:00 PM</div> Play game or attend Louisville Bats game (TBD)</a>
+                        </li>                        
+                      </ul>
+                    </div>
+                  </li>
+                  <!--CINCINNATI, OH-->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Wed July 1st</span>
+                      <span class="middle"><strong>CINCINNATI, OH</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>8:00 AM</div>Depart for Cincinnati
+                        </li>
+                        <li class="collection-item"><div>11:00 AM</div>Arrive at Great American Ballpark for Reds/ Twins game (12:35 PM start)</li>
+                        <li class="collection-item">
+                        <div>8:00 PM</div> Play game at Urban Youth Academy </a>
+                        </li>                        
+                      </ul>
+                    </div>
+                  </li>
+                  <!--PITTSBURGH,PA/CINCINNATI, OH-->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Thu July 2nd</span>
+                      <span class="middle"><strong>PITTSBURGH,PA/CINCINNATI, OH</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>11:00 AM</div>Visit National Underground Railroad Freedom Center
+                        </li>
+                        <li class="collection-item"><div>2:00 PM</div>Depart for Pittsburgh</li> 
+                      </ul>
+                    </div>
+                  </li>
+                  <!--PITTSBURGH,PA-->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Thu July 3rd</span>
+                      <span class="middle"><strong>PITTSBURGH,PA</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>12:00 PM</div>Play game vs Josh Gibson Foundation team
+                        </li>
+                        <li class="collection-item"><div>7:00 PM</div>Attend Pirates/Indians game</li> 
+                      </ul>
+                    </div>
+                  </li>
+                  <!--BINGHAMTON,NY-->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Thu July 4th</span>
+                      <span class="middle"><strong>BINGHAMTON,NY</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>8:00AM</div>Depart for Binghamton
+                        </li>
+                        <li class="collection-item"><div>7:00PM</div>Attend Binghamton Mets/ Portland Sea Dogs game
+                        </li>                      
+                      </ul>
+                    </div>
+                  </li>
+                  <!--COOPERSTOWN,NY-->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Thu July 5th</span>
+                      <span class="middle"><strong>COOPERSTOWN,NY</strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>12:00PM</div>Visit <a href="http://baseballhall.org/">National Baseball Hall of Fame</a>
+                        </li>
+                        <li class="collection-item"><div>6:00PM</div>Play game of visit Cooperstown All Star Village
+                        </li>                      
+                      </ul>
+                    </div>
+                  </li>
+                  <!--BOSTON/COOPERSTOWN,NY-->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Thu July 6th</span>
+                      <span class="middle"><strong>COOPERSTOWN,NY/BOSTON,MA </strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>10:00AM</div>Play game at Doubleday Field (if available)
+                        </li>
+                        <li class="collection-item"><div>2:00PM</div>Depart for Boston
+                        </li>                  
+                      </ul>
+                    </div>
+                  </li>
+                  <!--BOSTON,MA-->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Thu July 7th</span>
+                      <span class="middle"><strong>BOSTON,MA </strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>10:00AM</div>Tour Boston or play game (TBD)
+                        </li>
+                        <li class="collection-item"><div>7:00PM</div>Attend Red Sox/Marlins game
+                        </li>                     
+                      </ul>
+                    </div>
+                  </li>
+                  <!--NEW YORK,NY-->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Thu July 8th</span>
+                      <span class="middle"><strong>NEW YORK, NY </strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>9:00AM</div>Depart for New York
+                        </li>
+                        <li class="collection-item"><div>1:00PM</div>Visit MLB offices</li>
+                        <li class="collection-item"><div>7:00PM</div>Visit Yankees/A's game or play game at Harlem RBI (TBD)</li>                     
+                      </ul>
+                    </div>
+                  </li>
+                  <!--NEW YORK,NY DAY 2-->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Thu July 9th</span>
+                      <span class="middle"><strong>NEW YORK, NY </strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>12:00PM</div>Play game at Harlem RBI or attend Yankees/A's game (1:05PM)
+                        </li>
+                        <li class="collection-item"><div>4:00PM</div>Visit the Malcolm X and Dr. Betty Shabazz Memorial and Educational Center</li>          
+                      </ul>
+                    </div>
+                  </li>
+                  <!--NEW YORK SECAUCUS PHILADELPHIA-->
+                  <li>
+                    <!-- DATE AND LOCATION -->
+                    <div class="collapsible-header">
+                      <span class="left">Thu July 10th</span>
+                      <span class="middle"><strong> SECAUCUS, NJ/ PHILADELPHIA, PA </strong></span>
+                    </div>
+                    <!-- INFO -->
+                    <div class="collapsible-body">
+                      <ul class="collection">
+                        <li class="collection-item"><div>10:00AM</div>Depart for Secaucus
+                        </li>
+                        <li class="collection-item"><div>11:00AM</div>Visit MLB Network Studios</li>
+                        <li class="collection-item"><div>1:00PM</div>Depart for Philadelphia</li>
+                        <li class="collection-item"><div>3:00PM</div>Arrive Home</li>                                                          
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
               </div>
+
+
+
             </div>
             <div class="row row-bottom center-align"><a href="tour/index.html" class="waves-effect waves-light btn-large">Learn More Here!</a></div>
           </div>
         </div>
+
     </div>
  </div> 
 

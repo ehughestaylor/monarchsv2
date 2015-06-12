@@ -223,8 +223,22 @@ nav {
   .sponsor-card img {
     max-width: 100%; }
 
+#tourAccord {
+  border: none; }
+  #tourAccord .middle {
+    text-transform: uppercase; }
+  #tourAccord .collection {
+    margin: 0; }
+  #tourAccord .collapsible-header {
+    background-color: #012642;
+    color: white;
+    font-size: 1.2em; }
+  #tourAccord .collection-item {
+    font-size: 1.2em; }
+
 .tour-card {
-  padding: 2em; }
+  padding: 2em;
+  font-family: mainFont; }
 
 .sticky {
   position: fixed;
@@ -304,6 +318,8 @@ nav {
 .team-btn {
   position: fixed;
   right: 0;
+  margin: 0;
+  transform: rotate(90deg);
   top: 50%;
   font-family: mainFont;
   color: white;
@@ -342,9 +358,29 @@ nav {
   .modal.bottom-sheet .player {
     background-color: #012642;
     display: inline-block; }
+    .modal.bottom-sheet .player .card .card-title {
+      font-size: 2.5em; }
+    .modal.bottom-sheet .player .card .card-reveal {
+      background-color: #012642;
+      color: white;
+      font-family: mainFont;
+      font-size: 1.2em;
+      overflow: hidden; }
+      .modal.bottom-sheet .player .card .card-reveal .card-title {
+        margin: 0; }
+      .modal.bottom-sheet .player .card .card-reveal strong {
+        color: #BA991F;
+        margin-right: 0.91em; }
+      .modal.bottom-sheet .player .card .card-reveal p {
+        color: white; }
+    .modal.bottom-sheet .player .card .left {
+      margin-right: 1em; }
     .modal.bottom-sheet .player .card .card-image {
       height: 478px;
       text-align: center; }
+
+.mdi-navigation-more-vert {
+  color: #BA991F; }
 
 .tabs {
   animation: none;
