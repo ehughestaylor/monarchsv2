@@ -36,6 +36,12 @@ body {
 .card-panel {
   background-color: #012642; }
 
+.card .card-content p {
+  margin: 0;
+  color: inherit;
+  margin: 0.7em 0;
+  font-size: 1.1em; }
+
 h1 {
   font-family: headerFont; }
 
@@ -232,7 +238,8 @@ nav {
   #tourAccord .collapsible-header {
     background-color: #012642;
     color: white;
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    height: auto; }
   #tourAccord .collection-item {
     font-size: 1.2em; }
 
@@ -416,10 +423,7 @@ nav {
 
 @media (max-width: 992px) {
   .banner {
-    display: none; }
-
-  .team-btn {
-    transform: rotate(90deg); } }
+    display: none; } }
 @media (max-width: 870px) {
   #rightsMatter h3 {
     font-size: 1.4em; } }
@@ -435,6 +439,17 @@ nav {
   .sponsor-home #contact-foot {
     padding: 0;
     position: relative; } }
+.team-btn {
+  position: fixed;
+  right: 0;
+  margin: 0;
+  color: white;
+  font-size: 1.5em;
+  display: none;
+  transform: rotate(0deg);
+  top: inherit;
+  bottom: 0; }
+
 @media only screen and (max-width: 600px) {
   .container {
     width: 96%; }
@@ -460,6 +475,17 @@ nav {
     width: 70%;
     top: auto;
     opacity: 0; }
+
+  .team-btn {
+    position: fixed;
+    right: 0;
+    margin: 0;
+    color: white;
+    font-size: 1.5em;
+    display: none;
+    top: inherit;
+    transform: rotate(0deg);
+    bottom: 0; }
 
   ul#dropDown1 {
     width: 180px !important; } }

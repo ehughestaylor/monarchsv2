@@ -61,6 +61,13 @@ body{
   background-color: $navy;
 }
 
+
+.card .card-content p {
+  margin: 0;
+  color: inherit;
+  margin: 0.7em 0;
+  font-size: 1.1em;
+}
 // FONTS
 
 h1{
@@ -328,6 +335,7 @@ nav{
   background-color: $navy;
   color: white;
   font-size: 1.2em;
+  height: auto;
   }
   .collection-item{
     font-size: 1.2em;
@@ -592,9 +600,9 @@ nav{
   .banner{
     display: none;
   }
-  .team-btn{
-    transform: rotate(90deg);
-  }
+  // .team-btn{
+  //   transform: rotate(90deg);
+  // }
 }
 
 
@@ -638,6 +646,17 @@ nav{
     }
   }
 }
+.team-btn{
+  position: fixed;
+  right: 0;
+  margin: 0;
+  color: white;
+  font-size: 1.5em;
+  display: none;
+  transform: rotate(0deg);
+  top: inherit;
+  bottom: 0;
+}
 @media #{$small-and-down} {
     // styles for small screens and down
     .container{
@@ -671,7 +690,17 @@ nav{
   opacity: 0;
 }
 
-
+.team-btn{
+  position: fixed;
+  right: 0;
+  margin: 0;
+  color: white;
+  font-size: 1.5em;
+  display: none;
+  top: inherit;
+  transform: rotate(0deg);
+  bottom: 0;
+}
 // MAKE MOBILE BAV DROPDOWN MORE READABLE
 
 ul#dropDown1 {
