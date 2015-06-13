@@ -410,7 +410,8 @@ nav {
   font-size: 3,9em;
   font-family: headerFont;
   padding: 0.5em;
-  text-align: center; }
+  text-align: center;
+  color: #012642; }
 .story .story-content {
   font-size: 1.2em; }
 
