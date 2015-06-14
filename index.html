@@ -33,7 +33,86 @@
               width: 100%;
               height: 100%;
               z-index: 9999;
-              background: url(img/logo.png) center no-repeat #F4F3F5;
+              background:#F4F3F5;
+            }
+            @keyframes moveOver {
+              0% {
+                left: 0;
+              }
+              15%{
+                background-size: 20%;
+              }
+              50% {
+                left: 50%;
+                background-size: 30%;
+              }
+              100% {
+                left:100%;
+                visibility: hidden; 
+                background-size: 60%;             
+              }
+            }
+            @-webkit-keyframes moveOver{
+              0% {
+                left: 0;
+              }
+              15%{
+                background-size: 20%;
+              }
+              50% {
+                left: 50%;
+                background-size: 30%;
+              }
+              100% {
+                left:100%;
+                background-size: 60%;
+                visibility: hidden;
+              }
+            }
+            @-moz-keyframes moveOver{
+              0% {
+                left: 0;
+              }
+              15%{
+                background-size: 20%;
+              }
+              50% {
+                left: 50%;
+                background-size: 30%;
+              }
+              100% {
+                left:100%;
+                background-size: 60%;
+                visibility: hidden;
+              }
+            }
+            @-o-keyframes moveOver{
+              0% {
+                left: 0;
+              }
+              15%{
+                background-size: 20%;
+              }
+              50% {
+                left: 50%;
+                background-size: 30%;
+              }
+              100% {
+                left:100%;
+                background-size: 60%;
+                visibility: hidden;
+              }
+            }
+
+            .se-img{
+              background-image: url(img/logo.png);
+              background-repeat: no-repeat;
+              height: 300px;
+              width: 300px;
+              top: 40%;
+              position: absolute;
+              animation: moveOver 2s linear;
+              animation-iteration-count: 1;
             }
         </style>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -43,7 +122,9 @@
 
     </head>
     <body>
-    <div class="se-pre-con"></div>
+    <div class="se-pre-con">
+      <div class="se-img"></div>
+    </div>
   <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
@@ -105,6 +186,16 @@
           </div>
         </div>
       </li>
+      <li>
+        <img src="img/robinson.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <div id="findOut" class="waves-effect waves-light card" style="width:235px;">
+            <a href="tour/index.html"><p>Find out more about our
+            Barnstorming Tour
+            here!</p></a>
+          </div>
+        </div>
+      </li>
     </ul>
   </div>
 
@@ -149,9 +240,9 @@
           </div>
         </div>
           <div class="row">
-            <h3 class="center-align header">Contact</h3>
-            <div class="card contact-card">
-              <div class="col s12 center-align">
+              <div class="col s12 m5 center-align">
+                <h3 class="center-align header">Contact</h3>
+                <div class="card contact-card">
                 <div class="card-content">
               <!-- GOOGLE MAPS -->
                 <div id="location" class="container content">
@@ -201,7 +292,7 @@
           <div class="card tour-card">
             <div class="row row-top center-align"> 
               <!-- tour image -->
-              <div class="col s12 m6">
+              <div class="col s12 m5">
                 <div class="section">
                   <img class="responsive-img" src="img/broad_street.jpg" alt="">
                   <img class="responsive-img" src="img/darius_bus.jpg" alt="">
@@ -210,7 +301,7 @@
               </div>
               <!-- tour dates -->
               
-              <div class="col s12 m6">
+              <div class="col s12 m7">
                 <ul id="tourAccord" class="collapsible" data-collapsible="accordion">
                   <!-- PHILLY -->
                   <li>
@@ -218,6 +309,7 @@
                     <div class="collapsible-header">
                       <span class="left">Wed June 17th</span>
                       <span class="middle"><strong>PHILADELPHIA</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -233,6 +325,7 @@
                     <div class="collapsible-header">
                       <span class="left">Thu June 18th</span>
                       <span class="middle"><strong>WASHINGTON DC</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -249,6 +342,7 @@
                     <div class="collapsible-header">
                       <span class="left">Fri June 19th</span>
                       <span class="middle"><strong>WASHINGTON DC - DAY 2</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -265,6 +359,7 @@
                     <div class="collapsible-header">
                       <span class="left">Sat June 20th</span>
                       <span class="middle"><strong>RICHMOND/VIRGINIA</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -281,6 +376,7 @@
                     <div class="collapsible-header">
                       <span class="left">Sun June 21st</span>
                       <span class="middle"><strong>DURHAM, NC</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -297,6 +393,7 @@
                     <div class="collapsible-header">
                       <span class="left">Mon June 22nd</span>
                       <span class="middle"><strong>Spartanburg, SC</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -314,6 +411,7 @@
                     <div class="collapsible-header">
                       <span class="left">Tue June 23rd</span>
                       <span class="middle"><strong>Atlanta, GA</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -331,6 +429,7 @@
                     <div class="collapsible-header">
                       <span class="left">Wed June 24th</span>
                       <span class="middle"><strong>BIRMINGHAM, AL</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -350,6 +449,7 @@
                     <div class="collapsible-header">
                       <span class="left">Thu June 25th</span>
                       <span class="middle"><strong>MONTGOMERY, AL</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -367,6 +467,7 @@
                     <div class="collapsible-header">
                       <span class="left">Fri June 26th</span>
                       <span class="middle"><strong>SELMA, AL</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>s
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -385,6 +486,7 @@
                     <div class="collapsible-header">
                       <span class="left">Sat June 27th</span>
                       <span class="middle"><strong>JACKSON, MS</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -402,6 +504,7 @@
                     <div class="collapsible-header">
                       <span class="left">Sun June 28th</span>
                       <span class="middle"><strong>LITTLE ROCK, AR</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -420,6 +523,7 @@
                     <div class="collapsible-header">
                       <span class="left">Mon June 29th</span>
                       <span class="middle"><strong>MEMPHIS/ NASHVILLE, TN</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -438,6 +542,7 @@
                     <div class="collapsible-header">
                       <span class="left">Tue June 30th</span>
                       <span class="middle"><strong>LOUISVILLE, KY</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -457,6 +562,7 @@
                     <div class="collapsible-header">
                       <span class="left">Wed July 1st</span>
                       <span class="middle"><strong>CINCINNATI, OH</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -476,6 +582,7 @@
                     <div class="collapsible-header">
                       <span class="left">Thu July 2nd</span>
                       <span class="middle"><strong>PITTSBURGH,PA/CINCINNATI, OH</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -490,8 +597,9 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Thu July 3rd</span>
+                      <span class="left">Fri July 3rd</span>
                       <span class="middle"><strong>PITTSBURGH,PA</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -506,8 +614,9 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Thu July 4th</span>
+                      <span class="left">Sat July 4th</span>
                       <span class="middle"><strong>BINGHAMTON,NY</strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -523,8 +632,8 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Thu July 5th</span>
-                      <span class="middle"><strong>COOPERSTOWN,NY</strong></span>
+                      <span class="left">Sun July 5th</span>
+                      <span class="middle"><strong>COOPERSTOWN,NY</strong></span><i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -540,8 +649,9 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Thu July 6th</span>
+                      <span class="left">Mon July 6th</span>
                       <span class="middle"><strong>COOPERSTOWN,NY/BOSTON,MA </strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -557,8 +667,9 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Thu July 7th</span>
+                      <span class="left">Tue July 7th</span>
                       <span class="middle"><strong>BOSTON,MA </strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -574,8 +685,9 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Thu July 8th</span>
+                      <span class="left">Wed July 8th</span>
                       <span class="middle"><strong>NEW YORK, NY </strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -593,6 +705,7 @@
                     <div class="collapsible-header">
                       <span class="left">Thu July 9th</span>
                       <span class="middle"><strong>NEW YORK, NY </strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -607,8 +720,9 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Thu July 10th</span>
+                      <span class="left">Fri July 10 th</span>
                       <span class="middle"><strong> SECAUCUS, NJ/ PHILADELPHIA, PA </strong></span>
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">

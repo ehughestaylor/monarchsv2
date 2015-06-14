@@ -367,6 +367,11 @@ nav {
     display: inline-block; }
     .modal.bottom-sheet .player .card .card-title {
       font-size: 2.5em; }
+      .modal.bottom-sheet .player .card .card-title i {
+        font-size: 0.6em;
+        float: right; }
+      .modal.bottom-sheet .player .card .card-title i:hover {
+        color: #BA991F; }
     .modal.bottom-sheet .player .card .card-reveal {
       background-color: #012642;
       color: white;
