@@ -27,6 +27,12 @@ $gold:#BA991F;
 
 $tabs-underline-color: $gold!important;
 
+.navy-M{
+  color: $navy;
+}
+.gold-M{
+  color: $gold;
+}
 
 body{
   background-color:$navy;
@@ -131,6 +137,34 @@ li{
   position:relative;
 }
 
+//CONTEST BANNER
+.c-banner{
+  .slider .slides li img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+  font-family: mainFont;
+  color: white;
+  position:relative;
+  background-color:$navy;
+  h3{
+    // padding-top:40px;
+    padding-left: 40px;
+  }
+  h5{
+    margin-top: 3em;
+  }
+  .tourBus{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-size: 100%;
+  }
+
+}
 
 #dropDown1{
   z-index: 9999;
@@ -153,6 +187,13 @@ li{
   /* padding: 25px; */
   font-size: 1.2em;
   color: white;
+}
+#contest{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 2.2em;
+  color: $navy;
 }
 
 
@@ -301,7 +342,7 @@ nav{
 #contact-foot{
   position:absolute;
   left: 0;
-  bottom:0;
+  top:2%;
 
   i{
     font-size: 2.4em;
@@ -320,7 +361,20 @@ nav{
   img{
     max-width: 100%;
   }
+  #spon-list{
+    background-color: white;
+    li{
+      display: inline-block;
+      width: 25%;
+      background-color:white;
+      vertical-align: middle;
+    }
+    li:hover{
+      background-color:$navy;
+    }
+  }
 }
+
 
 
 #tourAccord{
@@ -336,9 +390,11 @@ nav{
   color: white;
   font-size: 1.2em;
   height: auto;
+  text-align: center;
   }
   .collection-item{
     font-size: 1.2em;
+    text-align: center;
   }
 }
 
@@ -653,7 +709,6 @@ nav{
       position: relative;
     }
   }
-}
 .team-btn{
   position: fixed;
   right: 0;
@@ -665,10 +720,31 @@ nav{
   top: inherit;
   bottom: 0;
 }
+
+i.mdi-hardware-keyboard-arrow-down{
+  display: none;
+}
+
+
+}
+
+
 @media #{$small-and-down} {
     // styles for small screens and down
     .container{
       width:96%;
+    }
+    .se-img{
+      text-align: center;
+      margin: 0 auto;
+      left: 50%;
+    }
+
+    // contest
+    .c-banner{
+      h2, h3{
+        font-size: 1.9em;
+      }
     }
 
   // read paragraphs easier on mobile
@@ -709,6 +785,8 @@ nav{
   transform: rotate(0deg);
   bottom: 0;
 }
+
+
 // MAKE MOBILE BAV DROPDOWN MORE READABLE
 
 ul#dropDown1 {

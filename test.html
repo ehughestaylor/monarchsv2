@@ -1,0 +1,790 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Anderson Monarchs | Philadelphia Baseball Club</title>
+        <meta name="description" content="Anderson Monarchs Philadelphia Baseball Club Homepage">
+        <link rel="shortcut icon" href="img/favicon.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+            .no-js #loader { 
+              display: none; 
+            }
+            .js #loader { 
+              display: block; 
+              position: absolute; 
+              left: 100px; 
+              top: 0; 
+            }
+            .se-pre-con {
+              position: fixed;
+              left: 0px;
+              top: 0px;
+              width: 100%;
+              height: 100%;
+              z-index: 9999;
+              background:#F4F3F5;
+            }
+            @keyframes moveOver {
+              0% {
+                left: 0;
+              }
+              5%{
+                background-size: 20%;
+              }
+              50% {
+                left: 50%;
+                background-size: 30%;
+              }
+              100% {
+                left:100%;
+                visibility: hidden; 
+                background-size: 60%;             
+              }
+            }
+            @-webkit-keyframes moveOver{
+              0% {
+                left: 0;
+                background-size: 0%;
+              }
+              5%{
+                background-size: 20%;
+              }
+              50% {
+                left: 50%;
+                background-size: 30%;
+              }
+              100% {
+                left:100%;
+                background-size: 60%;
+                visibility: hidden;
+              }
+            }
+            @-moz-keyframes moveOver{
+              0% {
+                left: 0;
+                background-size: 0%;
+              }
+              5%{
+                background-size: 20%;
+              }
+              50% {
+                left: 50%;
+                background-size: 30%;
+              }
+              100% {
+                left:100%;
+                background-size: 60%;
+                visibility: hidden;
+              }
+            }
+            @-o-keyframes moveOver{
+              0% {
+                left: 0;
+                background-size: 0%;
+              }
+              5%{
+                background-size: 20%;
+              }
+              50% {
+                left: 50%;
+                background-size: 30%;
+              }
+              100% {
+                left:100%;
+                background-size: 60%;
+                visibility: hidden;
+              }
+            }
+
+
+            .se-img{
+              background-image: url(img/logo.png);
+              background-repeat: no-repeat;
+              height: 300px;
+              width: 300px;
+              top: 40%;
+              position: absolute;
+              animation: moveOver 2s linear;
+              animation-iteration-count: 1;
+              -webkit-animation: moveOver 2s linear;animation: moveOver 2s linear;
+            }
+        </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+    </head>
+    <body>
+    <div class="se-pre-con">
+      <div class="se-img"></div>
+    </div>
+  <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+    <nav class="banner center-align ">
+      <div class="nav-wrapper container">
+        <h1 style="padding-right:10px;">Anderson</h1> <img id="logo" src="img/monarchs.png" height="150" alt=""><h1 style="padding-left:10px;">Monarchs</h1>
+      </div>
+      <a id="donate" target="_blank" href="https://www.justgive.org/basket?acton=donate&amp;ein=23-2593423" class="btn btn-large">Donate Now!</a>
+      <a id="contest" href="contest/index.html">#ImOnBoard</a>
+    </nav>
+  <nav id="nav" role="navigation"> <!-- add id of nav to make sticky header -->
+    <div class="nav-wrapper">
+    <a href="#" class="brandLogo right hide-on-large-only" style="line-height:0;"><img src="img/favicon.jpg" height="64px" alt="Anderson Monarchs"></a>
+    
+    <!-- Programs Dropdown -->
+    <ul id="dropDown1" class="dropdown-content">
+      <li><a class="tooltipped" data-position="right" data-delay="50" data-tooltip="Coming Soon" href="#!">Baseball</a></li>
+      <li><a class="tooltipped" data-position="right" data-delay="50" data-tooltip="Coming Soon" href="#!">Soccer</a></li>
+      <li><a class="tooltipped" data-position="right" data-delay="50" data-tooltip="Coming Soon" href="#!">Basketball</a></li>
+      <li class="divider"></li>
+      <li><a class="tooltipped" data-position="right" data-delay="50" data-tooltip="Coming Soon" href="#!">T-Ball</a></li>
+      <li><a class="tooltipped" data-position="right" data-delay="50" data-tooltip="Coming Soon" href="#!">Indoor Soccer</a></li>
+    </ul>
+    <!-- desktop nav -->
+    
+    <ul class="hide-on-med-and-down">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="about/index.html">About</a></li>
+      <li><a href="blog/index.html">Blog</a></li>
+      <li><a href="tour/index.html">Tour</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropDown1">Programs</a></li>
+      <li><a href="history/index.html">History</a></li>
+      <li><a href="mailto:stevebandura@aol.com?subject=Volunteer">Volunteer</a></li>
+      <li id="login"><a href="#">Login</a></li>
+    </ul>
+    <!-- mobile nav -->
+    <ul id="nav-mobile" class="side-nav">
+      <li><a href="contest/index.html">Contest</a></li>
+      <li><a href="about/index.html">About</a></li>
+      <li><a href="blog/index.html">Blog</a></li>
+      <li><a href="tour/index.html">Tour</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="programsDrop">Programs</a></li>
+      <li class="active"><a href="history/index.html">History</a></li>
+      <li><a href="mailto:stevebandura@aol.com?subject=Volunteer">Volunteer</a></li>
+      <li id="login"><a href="#">Login</a></li>
+    </ul>
+    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+  </div>
+</nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+ <div id="slider" class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/robinson.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <div id="findOut" class="waves-effect waves-light card" style="width:235px;">
+            <a href="http://www.nytimes.com/2015/06/14/opinion/sunday/frank-bruni-baseball-and-black-history.html?_r=0"><p>Read about the Monarchs in the NY Times!</p></a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="img/robinson.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <div id="findOut" class="waves-effect waves-light card" style="width:235px;">
+            <a href="tour/index.html"><p>Find out more about our
+            Barnstorming Tour
+            here!</p></a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+<!--   end of carousel -->
+<!-- START OF MAIN SECTION -->
+  <div class="container">
+    <div class="row social-home">
+      <!-- Blog -->
+      <div class="col s12 m7 blog-col">
+        <h3 class="center-align header">Blog</h3>
+        <div class="card blog-card">
+<!-- blog image -->
+            <div class="blog-image">
+              <img class="responsive-img" src="img/broad_street.jpg" height="300">
+            </div>
+            <!-- blog content -->
+            <div class="card-content">
+              <p style="font-size:1.3em" class="center-align">“The farther backward you can look, the farther forward you are likely to see.” 
+                ― Winston S. Churchill</p>
+
+                <p>History teaches us where we’ve been and, in doing so, provides us with a much clearer picture of where we are, and where we’re going.  But history is always written by the winners.</p> 
+
+                <p>I was born in 1961, which means that I was alive for a good portion of the modern Civil Rights Movement. But, for the life of me, I can’t recall it ever being discussed or even mentioned in my neighborhood or my home. The nuns in the catholic school I attended certainly never discussed  it with us. I guess it didn’t concern us - living in an all-white working class neighborhood in Northeast Philadelphia. Life was good. We put money in the collection basket every Sunday to help the poor, unfortunate people in other countries.  By ignoring what was going on in our own country, it was if it didn’t exist.  It didn’t matter to us. It wasn’t our problem. But it was.</p>
+                <p>Unfortunately, I didn’t understand that until I was an adult. It wasn’t until I read The Autobiography of Malcolm X that I started to realize how little I knew about the world outside my little bubble. Everything I knew (or thought I knew) about other races and religious groups was taught to me by the older kids in the neighborhood. I never questioned their knowledge.  They were older.  They knew about those things. But they didn’t.  And many of them still don’t. And this is why we find ourselves in the place we are now - in a country divided by race and blinded by hate, with little or no capacity to understand what fuels the fires in places like Ferguson and Baltimore.</p>
+                <p>We must look back to see forward.  Education and dialogue has to replace hatred and blind ignorance. As with the Civil Rights Movement 50 years ago, that change has to start with our young people.  But, in order for them to carry out this important mission, we must arm them with the knowledge and understanding needed to effect positive change.</p>
+                <p>This is why, every Friday evening for the past six months, I’ve sat in a cramped old locker room in the Marian Anderson Rec Center in South Philly with 14 adolescents, watching documentaries, learning about and discussing the Civil Rights Movement.  They are the 13 & 14 year-old Anderson Monarchs and they are our future.</p>
+                <p>To enhance their studies, we will be boarding our authentic 1947 Flxible Clipper bus and embarking on a 23-day, 20-city, 4000-mile journey through the Deep South.  The kids will visit the actual sites where many of the historic events of the Civil Rights Movement took place.  They’ll meet people who were actively involved in the fight for civil rights and hear their stories, first-hand.  They’ll not only learn about their history, they’ll be able to touch it. It is our hope that they’ll come away with a better sense of who they are, where they came from, and where they’re going.</p>
+                <p>Through their experiences and through the magic of social media, we hope to educate others, young and old, on the people, places and events from half a century go, and give them a better understanding of where we are as a nation today.  Maybe then, as Winston Churchill suggests, we’ll be able to see a brighter future.</p>
+                <p class="right">- Steve Bandura, Coach</p>
+            </div>
+            <!-- card action -->
+              <div class="center-align" style="padding-bottom:2em;">
+                <a href="blog/index.html" class="waves-effect waves-light btn-large">More Stories</a>
+              </div>          
+
+        </div>      
+      </div>
+      <!-- Itinerary -->
+      <div class="col s12 m5 featured-home">
+        <h3 class="center-align header">Civil Rights Barnstorming Tour</h3>
+        <div class="card tour-card">
+            <ul id="tourAccord" class="collapsible" data-collapsible="accordion">
+              <!-- PHILLY -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Wed June 17</span>
+                  <span class="middle"><strong>PHILADELPHIA</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>5:00 PM</div> Meet at Marian Anderson Recreation Center</li>
+                    <li class="collection-item"><div>6:00 PM</div> Depart for DC</li>
+                  </ul>
+                </div>
+              </li>
+              <!-- DC -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Thu June 18</span>
+                  <span class="middle"><strong>WASHINGTON DC</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>9:30 AM</div> White House Tour</li>
+                    <li class="collection-item"><div>1:00 PM</div>Meeting with Congressman <a href="">John Lewis</a></li>
+                    <li class="collection-item"><div>5:00 PM</div> Nationals/Rays Game (7:05 start)</li>
+                  </ul>
+                </div>
+              </li>
+              <!-- DC DAY 2 -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Fri June 19</span>
+                  <span class="middle"><strong>WASHINGTON DC - DAY 2</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>10:00 AM</div>Tour Nationals Academy</li>
+                    <li class="collection-item"><div>12:00 PM</div>Play Game at Nationals Academy</li>
+                    <li class="collection-item"><div>4:00 PM</div>Depart for Richmond VA</li>
+                  </ul>
+                </div>
+              </li>
+              <!-- RICHMOND VS/ DURHAM -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Sat June 20</span>
+                  <span class="middle"><strong>RICHMOND/VIRGINIA</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>10:00 AM</div>Play Game vs Metropolitan Junior Baseball League <a href="http://henrico.us/rec/places/rfp/">come watch!</a></li>
+                    <li class="collection-item"><div>1:00 PM</div>Depart for Durham</li>
+                    <li class="collection-item"><div>6:05 PM</div>Attend <a href="https://www.google.com/maps/place/200+Brooks+Park+Ln,+Cary,+NC+27519/@35.7988804,-78.8926359,17z/data=!3m1!4b1!4m2!3m1!1s0x89acec59361b143d:0x4f867cb49f3d3a78">USA Collegiate National Team Game</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!--DURHAM NC -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Sun June 21</span>
+                  <span class="middle"><strong>DURHAM, NC</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>10:00 AM</div>Play Game vs Long Ball Program of Durham at <a href="https://www.google.com/maps/place/600+Clayton+Rd,+Durham,+NC+27703/@35.995895,-78.830648,17z/data=!3m1!4b1!4m2!3m1!1s0x89acfb56c5003935:0xd06b27dec39c15a3">Southern High School</a></li>
+                    <li class="collection-item"><div>1:00 PM</div>Visit UNC Chapel Hill or Duke Universityy</li>
+                    <li class="collection-item"><div>4:00 PM</div>Depart for Spartanburg</li>
+                  </ul>
+                </div>
+              </li>
+              <!--SPARTANBURG SC -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Mon June 22</span>
+                  <span class="middle"><strong>Spartanburg, SC</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>10:00 AM</div>Tour <a href="   http://www.wofford.edu/">Wofford College</a></li>
+                    <li class="collection-item"><div>12:00 PM</div>Lunch on Campus</li>
+                    <li class="collection-item"><div>2:00 PM</div>Play game at Russell C. King Field - Wofford College</li>
+                    <li class="collection-item"><div>5:00 PM</div>Depart for Atlanta </li>
+                  </ul>
+                </div>
+              </li>
+              <!--ATLANTA GA -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Tue June 23</span>
+                  <span class="middle"><strong>Atlanta, GA</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>10:00 AM</div>Visit <a href="https://www.google.com/maps/place/450+Auburn+Ave+NE,+Atlanta,+GA+30312/@33.7562991,-84.3734591,17z/data=!3m1!4b1!4m2!3m1!1s0x88f503f517344bc7:0x9f9d6bc3ca666f76">Martin Luther King National Historic Site</a></li>
+
+                    <li class="collection-item"><div>11:15 AM</div><a href="https://www.google.com/maps/place/250+Williams+St+NW,+Atlanta,+GA+30303/@33.7616294,-84.3913026,17z/data=!3m1!4b1!4m2!3m1!1s0x88f5047ed42f5c6f:0xbd85653061a909a8">National Center for Civil and Human Rights</a></li>
+
+                    <li class="collection-item"><div>2:00 PM</div>Meet and greet with Hank Aaron at <a href="https://www.google.com/maps/place/755+Hank+Aaron+Dr+SE,+Atlanta,+GA+30315/@33.7361249,-84.389355,17z/data=!3m1!4b1!4m2!3m1!1s0x88f503a25f89305f:0x9b5cf464112e1b95">Turner Field</a></li>
+                    <li class="collection-item"><div>4:00 PM</div>Depart for Birmingham</li>
+                  </ul>
+                </div>
+              </li>
+              <!--BIRMINGHAM ALABAMA -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Wed June 24</span>
+                  <span class="middle"><strong>BIRMINGHAM, AL</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>10:00 AM</div>Visit <a href="https://www.google.com/maps/place/520+16th+St+N,+Birmingham,+AL+35203/@33.515927,-86.8150359,17z/data=!3m1!4b1!4m2!3m1!1s0x88891b8e8f155ca9:0x6e6a90a8bc9bafcc">Birmingham Civil Rights District</a>
+                    (16th Street Baptist Church, Kelly Ingram Park, Civil Rights Institute, etc.)
+                    </li>
+
+                    <li class="collection-item"><div>6:00 PM</div>Play Negro League tribute game vs Willie Mays RBI at <a href="https://www.google.com/maps/place/1137+2nd+Ave+W,+Birmingham,+AL+35204/@33.5032138,-86.8556913,17z/data=!3m1!4b1!4m2!3m1!1s0x88891c311338f6c7:0x9c30e5bf28a7cb7f">Rickwood Field</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!--MONTGOMERY ALABAMA -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Thu June 25</span>
+                  <span class="middle"><strong>MONTGOMERY, AL</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>11:30 AM</div>Tour Civil Rights Memorial at Souther Poverty Law Center, Rosa Parks Library and Museum at Troy University
+                    </li>
+
+                    <li class="collection-item"><div>7:05 PM</div>Attend Montgomery Biscuits/Chattanooga Lookouts Game at <a href="https://www.google.com/maps/place/200+Coosa+St,+Montgomery,+AL+36104/@32.381952,-86.310376,17z/data=!3m1!4b1!4m2!3m1!1s0x888e816586087cff:0xff89f0755a7f28f5">Riverwalk Stadium</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!--SELMA ALABAMA -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Fri June 26</span>
+                  <span class="middle"><strong>SELMA, AL</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>9:00 AM</div>Depart for Selma
+                    </li>
+
+                    <li class="collection-item"><div>10:00 AM</div>Visit Edmund Pettus Bridge and National Voting Rights Museum</li>
+                    <li class="collection-item"><div>2:00 PM</div>Depart for Jacskson, MS</li>
+                  </ul>
+                </div>
+              </li>
+              <!--JACKSON MS -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Sat June 27</span>
+                  <span class="middle"><strong>JACKSON, MS</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>9:00 AM</div>Visit Medgar Evers Home Museum
+                    </li>
+                    <li class="collection-item"><div>12:00 PM</div>Play game vs Richland Junkstarz</li>
+                    <li class="collection-item"><div>4:00 PM</div>Depart for Pine Bluff, AR</li>
+                  </ul>
+                </div>
+              </li>
+              <!-- LITTLE ROCK ARKANSAS -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Sun June 28</span>
+                  <span class="middle"><strong>LITTLE ROCK, AR</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>8:00 AM</div>Depart for Little Rock
+                    </li>
+                    <li class="collection-item"><div>10:00 AM</div>Visit Little Rock Central High School National Historic Site</li>
+                    <li class="collection-item"><div>1:00 PM</div>Play game vs Little Rock RBI at <a href="https://www.google.com/maps/place/Billy+Mitchell+Boys+%26+Girls+Club/@34.746992,-92.308735,17z/data=!3m1!4b1!4m2!3m1!1s0x87d2a4a95121f787:0x9c2fb5f25ca4a817">Billy Mitchell Boys and Girls Club</a></li>
+                    <li class="collection-item"><div>6:10 PM</div>Attend Arkansas Travelers/Springfield game at <a href="https://www.google.com/maps/place/Arkansas+Travelers/@34.756138,-92.27139,17z/data=!3m1!4b1!4m2!3m1!1s0x87d2bc831945448b:0xf7f8d2c113434171">Dickey Stephens Park</a></li>                        
+                  </ul>
+                </div>
+              </li>
+              <!--MEMPHIS TN / NASHVILLE -->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Mon June 29</span>
+                  <span class="middle"><strong>MEMPHIS/ NASHVILLE, TN</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>8:00 AM</div>Depart for Memphis
+                    </li>
+                    <li class="collection-item"><div>12:00 PM</div>Visit National Civil Rights Museum at the Lorraine Hotel</li>
+                    <li class="collection-item"><div>3:00 PM</div>Depart for Nashville, TN</li>
+                    <li class="collection-item"><div>6:10 PM</div>Attend Arkansas Travelers/Springfield game at <a href="https://www.google.com/maps/place/Arkansas+Travelers/@34.756138,-92.27139,17z/data=!3m1!4b1!4m2!3m1!1s0x87d2bc831945448b:0xf7f8d2c113434171">Dickey Stephens Park</a></li>                        
+                  </ul>
+                </div>
+              </li>
+              <!--LOUISVILLE, KY-->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Tue June 30</span>
+                  <span class="middle"><strong>LOUISVILLE, KY</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>8:00 AM</div>Depart for Louisville
+                    </li>
+                    <li class="collection-item"><div>1:00 PM</div>Visit Ali Center</li>
+                    <li class="collection-item">
+                    <div>7:00 PM</div> Play game or attend Louisville Bats game (TBD)</a>
+                    </li>                        
+                  </ul>
+                </div>
+              </li>
+              <!--CINCINNATI, OH-->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Wed July 1</span>
+                  <span class="middle"><strong>CINCINNATI, OH</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>8:00 AM</div>Depart for Cincinnati
+                    </li>
+                    <li class="collection-item"><div>11:00 AM</div>Arrive at Great American Ballpark for Reds/ Twins game (12:35 PM start)</li>
+                    <li class="collection-item">
+                    <div>8:00 PM</div> Play game at Urban Youth Academy </a>
+                    </li>                        
+                  </ul>
+                </div>
+              </li>
+              <!--PITTSBURGH,PA/CINCINNATI, OH-->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Thu July 2</span>
+                  <span class="middle"><strong>PITTSBURGH,PA/CINCINNATI, OH</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>11:00 AM</div>Visit National Underground Railroad Freedom Center
+                    </li>
+                    <li class="collection-item"><div>2:00 PM</div>Depart for Pittsburgh</li> 
+                  </ul>
+                </div>
+              </li>
+              <!--PITTSBURGH,PA-->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Fri July 3</span>
+                  <span class="middle"><strong>PITTSBURGH,PA</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>12:00 PM</div>Play game vs Josh Gibson Foundation team
+                    </li>
+                    <li class="collection-item"><div>7:00 PM</div>Attend Pirates/Indians game</li> 
+                  </ul>
+                </div>
+              </li>
+              <!--BINGHAMTON,NY-->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Sat July 4</span>
+                  <span class="middle"><strong>BINGHAMTON,NY</strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>8:00AM</div>Depart for Binghamton
+                    </li>
+                    <li class="collection-item"><div>7:00PM</div>Attend Binghamton Mets/ Portland Sea Dogs game
+                    </li>                      
+                  </ul>
+                </div>
+              </li>
+              <!--COOPERSTOWN,NY-->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Sun July 5</span>
+                  <span class="middle"><strong>COOPERSTOWN,NY</strong></span><i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>12:00PM</div>Visit <a href="http://baseballhall.org/">National Baseball Hall of Fame</a>
+                    </li>
+                    <li class="collection-item"><div>6:00PM</div>Play game of visit Cooperstown All Star Village
+                    </li>                      
+                  </ul>
+                </div>
+              </li>
+              <!--BOSTON/COOPERSTOWN,NY-->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Mon July 6</span>
+                  <span class="middle"><strong>COOPERSTOWN,NY/BOSTON,MA </strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>10:00AM</div>Play game at Doubleday Field (if available)
+                    </li>
+                    <li class="collection-item"><div>2:00PM</div>Depart for Boston
+                    </li>                  
+                  </ul>
+                </div>
+              </li>
+              <!--BOSTON,MA-->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Tue July 7</span>
+                  <span class="middle"><strong>BOSTON,MA </strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>10:00AM</div>Tour Boston or play game (TBD)
+                    </li>
+                    <li class="collection-item"><div>7:00PM</div>Attend Red Sox/Marlins game
+                    </li>                     
+                  </ul>
+                </div>
+              </li>
+              <!--NEW YORK,NY-->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Wed July 8</span>
+                  <span class="middle"><strong>NEW YORK, NY </strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>9:00AM</div>Depart for New York
+                    </li>
+                    <li class="collection-item"><div>1:00PM</div>Visit MLB offices</li>
+                    <li class="collection-item"><div>7:00PM</div>Visit Yankees/A's game or play game at Harlem RBI (TBD)</li>                     
+                  </ul>
+                </div>
+              </li>
+              <!--NEW YORK,NY DAY 2-->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Thu July 9</span>
+                  <span class="middle"><strong>NEW YORK, NY </strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>12:00PM</div>Play game at Harlem RBI or attend Yankees/A's game (1:05PM)
+                    </li>
+                    <li class="collection-item"><div>4:00PM</div>Visit the Malcolm X and Dr. Betty Shabazz Memorial and Educational Center</li>          
+                  </ul>
+                </div>
+              </li>
+              <!--NEW YORK SECAUCUS PHILADELPHIA-->
+              <li>
+                <!-- DATE AND LOCATION -->
+                <div class="collapsible-header">
+                  <span class="left">Fri July 10</span>
+                  <span class="middle"><strong> SECAUCUS, NJ/ PHILADELPHIA, PA </strong></span>
+                  <i class="mdi-hardware-keyboard-arrow-down right"></i>
+                </div>
+                <!-- INFO -->
+                <div class="collapsible-body">
+                  <ul class="collection">
+                    <li class="collection-item"><div>10:00AM</div>Depart for Secaucus
+                    </li>
+                    <li class="collection-item"><div>11:00AM</div>Visit MLB Network Studios</li>
+                    <li class="collection-item"><div>1:00PM</div>Depart for Philadelphia</li>
+                    <li class="collection-item"><div>3:00PM</div>Arrive Home</li>                                                    
+                  </ul>
+                </div>
+              </li>
+            </ul>
+        </div>      
+      </div>
+      <!-- CONTACT -->
+      <div class="col s12 m6 center-align">
+        <h3 class="center-align header">Contact</h3>
+        <div class="card">
+            <div class="card-content">
+          <!-- GOOGLE MAPS -->
+            <div id="location" class="container content">
+              <div class="map">
+                  <div class="border">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.9715071044734!2d-75.1711575!3d39.94202700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c63dcf814fb5%3A0x7e719ca29622cd94!2s744+S+17th+St%2C+Philadelphia%2C+PA+19146!5e0!3m2!1sen!2sus!4v1423078286802" width="250px"  height="250px" frameborder="0" style="border:0"></iframe>
+                  </div> 
+                </div>
+            </div>
+            <p class="navy-M">Mailing Address</p>
+            <p>744 S. 17th St. Philadelphia, PA 19146</p>
+            </div>
+            <div id="contact-foot" class="card-action">
+              <a href="tel:+9999999999"><li><i class="mdi-maps-local-phone"></i></li></a>
+              <a href="mailto:stevebandura@aol.com"><li><i class="fa fa-envelope waves-effect"></i></li></a> 
+              <a target="_blank" href="https://www.facebook.com/andersonmonarchs?fref=ts"><li><i class="fa fa-facebook waves-effect"></i></li></a>
+              <a href="https://twitter.com/AndersonMonarch"><li><i class="fa fa-twitter waves-effect"></i></li></a>
+              <a target="_blank" href="http://instagram.com/theandersonmonarchs?"><li><i class="fa fa-instagram waves-effect"></i></li></a>
+            </div>
+        </div>
+      </div>
+      <!-- TWITTER -->
+      <div class="col s12 m6 twitter-col">
+          <h3 class="center-align header">Social</h3>
+          <div class="card">
+            <a class="twitter-timeline" href="https://twitter.com/AndersonMonarch" data-widget-id="604633035334660096">Tweets by @AndersonMonarch</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+      </div>
+      <!-- SPONSORS -->
+      <div class="col s12 m12 sponsor-home center-align">
+        <h3 class="center-align header">Sponsors</h3>
+          <div class="card sponsor-card">
+            <div class="col s12 center-align">
+                <ul id="spon-list">
+                  <li><a href="http://www.chevrolet.com/"><img src="img/chevy-logo.jpeg" alt="Chevy Logo"></a></li>
+                  <li><a href="http://mlb.mlb.com/home"><img src="img/mlb-logo 2.jpg" alt="MLB LOGO"></a></li>
+                  <li><a href="http://www.townsendpress.net/home"><img src="img/townsend.jpg" alt=""></a></li>
+                  <li><a href="http://www.easton.com/"><img src="img/easton-logo.jpg" alt=""></a></li>
+                </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l8 s12">
+            <h4 class="grey-text text-lighten-4">"A life is not important except in the impact it has on other lives."</h4>
+            <h4 class="grey-text text-lighten-4 right-align"> - Jackie Robinson</h4>
+
+
+          </div>
+          <div class="col l2 s6 right-align">
+            <h5 class="white-text">Pages</h5>
+            <ul class="footer-contact">
+              <li><a href="about/index.html">About</a></li>
+              <li><a href="blog/index.html">Blog</a></li>
+              <li><a href="tour/index.html">Tour</a></li>
+              <li><a href="https://www.justgive.org/basket?acton=donate&ein=23-2593423">Donate</a></li>
+              <li><a href="history/index.html">History</a></li>
+              <li><a href="contact/index.html">Volunteer</a></li>
+              <li id="login"><a href="contact/index.html">Login</a></li>
+            </ul>
+          </div>
+          <div class="col l2 s6 right-align">
+            <h5 class="white-text">Contact</h5>
+            <ul class="footer-contact right-align">
+                <a href="tel:+9999999999"><li><i class="mdi-maps-local-phone waves-effect"></i></li></a>
+                <a href="mailto:stevebandura@aol.com"><li><i class="fa fa-envelope waves-effect"></i></li></a> 
+                <a target="_blank" href="https://www.facebook.com/andersonmonarchs?fref=ts"><li><i class="fa fa-facebook waves-effect"></i></li></a>
+                <a href="https://twitter.com/AndersonMonarch"><li><i class="fa fa-twitter waves-effect"></i></li></a>
+                <a target="_blank" href="http://instagram.com/theandersonmonarchs?"><li><i class="fa fa-instagram waves-effect"></i></li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        Made by <a class="orange-text text-lighten-3" href="http://ehughestaylor.com/">Elliott Hughes-Taylor</a>
+        </div>
+      </div>
+    </footer>
+
+   <!-- /container -->        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/materialize.min.js"></script>
+        <script src="js/noframework.waypoints.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-64093027-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>

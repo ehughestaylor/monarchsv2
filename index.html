@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Anderson Monarchs | Philadelphia Baseball Club</title>
-        <meta name="description" content="">
+        <meta name="description" content="Anderson Monarchs Philadelphia Baseball Club Homepage">
         <link rel="shortcut icon" href="img/favicon.jpg">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -39,7 +39,7 @@
               0% {
                 left: 0;
               }
-              15%{
+              5%{
                 background-size: 20%;
               }
               50% {
@@ -55,8 +55,9 @@
             @-webkit-keyframes moveOver{
               0% {
                 left: 0;
+                background-size: 0%;
               }
-              15%{
+              5%{
                 background-size: 20%;
               }
               50% {
@@ -72,8 +73,9 @@
             @-moz-keyframes moveOver{
               0% {
                 left: 0;
+                background-size: 0%;
               }
-              15%{
+              5%{
                 background-size: 20%;
               }
               50% {
@@ -89,8 +91,9 @@
             @-o-keyframes moveOver{
               0% {
                 left: 0;
+                background-size: 0%;
               }
-              15%{
+              5%{
                 background-size: 20%;
               }
               50% {
@@ -104,6 +107,7 @@
               }
             }
 
+
             .se-img{
               background-image: url(img/logo.png);
               background-repeat: no-repeat;
@@ -113,6 +117,7 @@
               position: absolute;
               animation: moveOver 2s linear;
               animation-iteration-count: 1;
+              -webkit-animation: moveOver 2s linear;animation: moveOver 2s linear;
             }
         </style>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -133,6 +138,7 @@
         <h1 style="padding-right:10px;">Anderson</h1> <img id="logo" src="img/monarchs.png" height="150" alt=""><h1 style="padding-left:10px;">Monarchs</h1>
       </div>
       <a id="donate" target="_blank" href="https://www.justgive.org/basket?acton=donate&amp;ein=23-2593423" class="btn btn-large">Donate Now!</a>
+      <a id="contest" href="contest/index.html">#ImOnBoard</a>
     </nav>
   <nav id="nav" role="navigation"> <!-- add id of nav to make sticky header -->
     <div class="nav-wrapper">
@@ -161,6 +167,7 @@
     </ul>
     <!-- mobile nav -->
     <ul id="nav-mobile" class="side-nav">
+      <li><a href="contest/index.html">Contest</a></li>
       <li><a href="about/index.html">About</a></li>
       <li><a href="blog/index.html">Blog</a></li>
       <li><a href="tour/index.html">Tour</a></li>
@@ -180,9 +187,7 @@
         <img src="img/robinson.jpg"> <!-- random image -->
         <div class="caption right-align">
           <div id="findOut" class="waves-effect waves-light card" style="width:235px;">
-            <a href="tour/index.html"><p>Find out more about our
-            Barnstorming Tour
-            here!</p></a>
+            <a href="http://www.nytimes.com/2015/06/14/opinion/sunday/frank-bruni-baseball-and-black-history.html?_r=0"><p>Read about the Monarchs in the NY Times!</p></a>
           </div>
         </div>
       </li>
@@ -227,87 +232,24 @@
             </div>
             <!-- card action -->
               <div class="center-align" style="padding-bottom:2em;">
-                <a class="waves-effect waves-light btn-large">More Posts</a>
+                <a href="blog/index.html" class="waves-effect waves-light btn-large">More Stories</a>
               </div>
 
           </div>
         </div>
-        <div class="twitter-col col s12 m5">
-          <h3 class="center-align header">Social</h3>
-          <div class="card">
-            <a class="twitter-timeline" href="https://twitter.com/AndersonMonarch" data-widget-id="604633035334660096">Tweets by @AndersonMonarch</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-        </div>
-          <div class="row">
-              <div class="col s12 m5 center-align">
-                <h3 class="center-align header">Contact</h3>
-                <div class="card contact-card">
-                <div class="card-content">
-              <!-- GOOGLE MAPS -->
-                <div id="location" class="container content">
-                  <div class="map">
-                      <div class="border">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.9715071044734!2d-75.1711575!3d39.94202700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c63dcf814fb5%3A0x7e719ca29622cd94!2s744+S+17th+St%2C+Philadelphia%2C+PA+19146!5e0!3m2!1sen!2sus!4v1423078286802" width="250px"  height="250px" frameborder="0" style="border:0"></iframe>
-                      </div> 
-                    </div>
-                </div>
-              </div>
-              <div id="contact-foot" class="card-action">
-                <a href="tel:+9999999999"><li><i class="mdi-maps-local-phone"></i></li></a>
-                <a href="mailto:stevebandura@aol.com"><li><i class="fa fa-envelope waves-effect"></i></li></a> 
-                <a target="_blank" href="https://www.facebook.com/andersonmonarchs?fref=ts"><li><i class="fa fa-facebook waves-effect"></i></li></a>
-                <a href="https://twitter.com/AndersonMonarch"><li><i class="fa fa-twitter waves-effect"></i></li></a>
-                <a target="_blank" href="http://instagram.com/theandersonmonarchs?"><li><i class="fa fa-instagram waves-effect"></i></li></a>
-              </div>
 
-
-              </div>
-            </div>
-          </div>
-    </div>
-    <!-- sponsor and featured row -->
-    <div class="row bottom-row">
-        <!-- SPONSOR and CONTACT SECTION -->
-        <div class="col s12 m4 sponsor-home">
-          <!-- sponsor row -->
-          <div class="row">
-            <h3 class="center-align header">Sponsors</h3>
-            <div class="card sponsor-card">
-              <div class="col s12 center-align">
-                <a href="http://www.chevrolet.com/"><img src="img/chevy-logo.jpeg" alt="Chevy Logo"></a>
-                <a href="http://mlb.mlb.com/home"><img src="img/mlb-logo 2.jpg" alt="MLB LOGO"></a>
-                <a href="http://www.townsendpress.net/home"><img src="img/townsend.jpg" alt=""></a>
-                <a href="http://www.easton.com/"><img src="img/easton-logo.jpg" alt=""></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- FEATURED SECTION -->
-
-        <div class="col s12 m8 featured-home">
+        <div class="col s12 m5 featured-home">
           <h3 class="center-align header">2015 Civil Rights Barnstorming Tour</h3>
           <div class="card tour-card">
             <div class="row row-top center-align"> 
-              <!-- tour image -->
-              <div class="col s12 m5">
-                <div class="section">
-                  <img class="responsive-img" src="img/broad_street.jpg" alt="">
-                  <img class="responsive-img" src="img/darius_bus.jpg" alt="">
-                  <a href="tour/index.html" class="waves-effect waves-light btn-large" style="font-size:1.2em;">Learn About the Tour Here!</a>
-                </div>
-              </div>
-              <!-- tour dates -->
-              
-              <div class="col s12 m7">
+              <!-- tour dates -->             
+              <div class="col s12 m12">
                 <ul id="tourAccord" class="collapsible" data-collapsible="accordion">
                   <!-- PHILLY -->
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Wed June 17th</span>
+                      <span class="left">Wed June 17</span>
                       <span class="middle"><strong>PHILADELPHIA</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -323,7 +265,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Thu June 18th</span>
+                      <span class="left">Thu June 18</span>
                       <span class="middle"><strong>WASHINGTON DC</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -340,7 +282,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Fri June 19th</span>
+                      <span class="left">Fri June 19</span>
                       <span class="middle"><strong>WASHINGTON DC - DAY 2</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -357,7 +299,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Sat June 20th</span>
+                      <span class="left">Sat June 20</span>
                       <span class="middle"><strong>RICHMOND/VIRGINIA</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -374,14 +316,14 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Sun June 21st</span>
+                      <span class="left">Sun June 21</span>
                       <span class="middle"><strong>DURHAM, NC</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
                       <ul class="collection">
-                        <li class="collection-item"><div>10:00 AM</div>Play Game vs Long Ball Program of Durham</li>
+                        <li class="collection-item"><div>10:00 AM</div>Play Game vs Long Ball Program of Durham at <a href="https://www.google.com/maps/place/600+Clayton+Rd,+Durham,+NC+27703/@35.995895,-78.830648,17z/data=!3m1!4b1!4m2!3m1!1s0x89acfb56c5003935:0xd06b27dec39c15a3">Southern High School</a></li>
                         <li class="collection-item"><div>1:00 PM</div>Visit UNC Chapel Hill or Duke Universityy</li>
                         <li class="collection-item"><div>4:00 PM</div>Depart for Spartanburg</li>
                       </ul>
@@ -391,7 +333,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Mon June 22nd</span>
+                      <span class="left">Mon June 22</span>
                       <span class="middle"><strong>Spartanburg, SC</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -409,7 +351,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Tue June 23rd</span>
+                      <span class="left">Tue June 23</span>
                       <span class="middle"><strong>Atlanta, GA</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -417,6 +359,8 @@
                     <div class="collapsible-body">
                       <ul class="collection">
                         <li class="collection-item"><div>10:00 AM</div>Visit <a href="https://www.google.com/maps/place/450+Auburn+Ave+NE,+Atlanta,+GA+30312/@33.7562991,-84.3734591,17z/data=!3m1!4b1!4m2!3m1!1s0x88f503f517344bc7:0x9f9d6bc3ca666f76">Martin Luther King National Historic Site</a></li>
+
+                        <li class="collection-item"><div>11:15 AM</div><a href="https://www.google.com/maps/place/250+Williams+St+NW,+Atlanta,+GA+30303/@33.7616294,-84.3913026,17z/data=!3m1!4b1!4m2!3m1!1s0x88f5047ed42f5c6f:0xbd85653061a909a8">National Center for Civil and Human Rights</a></li>
 
                         <li class="collection-item"><div>2:00 PM</div>Meet and greet with Hank Aaron at <a href="https://www.google.com/maps/place/755+Hank+Aaron+Dr+SE,+Atlanta,+GA+30315/@33.7361249,-84.389355,17z/data=!3m1!4b1!4m2!3m1!1s0x88f503a25f89305f:0x9b5cf464112e1b95">Turner Field</a></li>
                         <li class="collection-item"><div>4:00 PM</div>Depart for Birmingham</li>
@@ -427,7 +371,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Wed June 24th</span>
+                      <span class="left">Wed June 24</span>
                       <span class="middle"><strong>BIRMINGHAM, AL</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -439,7 +383,6 @@
                         </li>
 
                         <li class="collection-item"><div>6:00 PM</div>Play Negro League tribute game vs Willie Mays RBI at <a href="https://www.google.com/maps/place/1137+2nd+Ave+W,+Birmingham,+AL+35204/@33.5032138,-86.8556913,17z/data=!3m1!4b1!4m2!3m1!1s0x88891c311338f6c7:0x9c30e5bf28a7cb7f">Rickwood Field</a></li>
-                        <li class="collection-item"><div>4:00 PM</div>Depart for Birmingham</li>
                       </ul>
                     </div>
                   </li>
@@ -447,7 +390,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Thu June 25th</span>
+                      <span class="left">Thu June 25</span>
                       <span class="middle"><strong>MONTGOMERY, AL</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -465,9 +408,9 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Fri June 26th</span>
+                      <span class="left">Fri June 26</span>
                       <span class="middle"><strong>SELMA, AL</strong></span>
-                      <i class="mdi-hardware-keyboard-arrow-down right"></i>s
+                      <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
                     <div class="collapsible-body">
@@ -484,7 +427,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Sat June 27th</span>
+                      <span class="left">Sat June 27</span>
                       <span class="middle"><strong>JACKSON, MS</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -502,7 +445,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Sun June 28th</span>
+                      <span class="left">Sun June 28</span>
                       <span class="middle"><strong>LITTLE ROCK, AR</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -512,7 +455,7 @@
                         <li class="collection-item"><div>8:00 AM</div>Depart for Little Rock
                         </li>
                         <li class="collection-item"><div>10:00 AM</div>Visit Little Rock Central High School National Historic Site</li>
-                        <li class="collection-item"><div>1:00 PM</div>Play game vs Little Rock RBI</li>
+                        <li class="collection-item"><div>1:00 PM</div>Play game vs Little Rock RBI at <a href="https://www.google.com/maps/place/Billy+Mitchell+Boys+%26+Girls+Club/@34.746992,-92.308735,17z/data=!3m1!4b1!4m2!3m1!1s0x87d2a4a95121f787:0x9c2fb5f25ca4a817">Billy Mitchell Boys and Girls Club</a></li>
                         <li class="collection-item"><div>6:10 PM</div>Attend Arkansas Travelers/Springfield game at <a href="https://www.google.com/maps/place/Arkansas+Travelers/@34.756138,-92.27139,17z/data=!3m1!4b1!4m2!3m1!1s0x87d2bc831945448b:0xf7f8d2c113434171">Dickey Stephens Park</a></li>                        
                       </ul>
                     </div>
@@ -521,7 +464,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Mon June 29th</span>
+                      <span class="left">Mon June 29</span>
                       <span class="middle"><strong>MEMPHIS/ NASHVILLE, TN</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -540,7 +483,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Tue June 30th</span>
+                      <span class="left">Tue June 30</span>
                       <span class="middle"><strong>LOUISVILLE, KY</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -560,7 +503,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Wed July 1st</span>
+                      <span class="left">Wed July 1</span>
                       <span class="middle"><strong>CINCINNATI, OH</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -580,7 +523,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Thu July 2nd</span>
+                      <span class="left">Thu July 2</span>
                       <span class="middle"><strong>PITTSBURGH,PA/CINCINNATI, OH</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -597,7 +540,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Fri July 3rd</span>
+                      <span class="left">Fri July 3</span>
                       <span class="middle"><strong>PITTSBURGH,PA</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -614,7 +557,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Sat July 4th</span>
+                      <span class="left">Sat July 4</span>
                       <span class="middle"><strong>BINGHAMTON,NY</strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -632,7 +575,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Sun July 5th</span>
+                      <span class="left">Sun July 5</span>
                       <span class="middle"><strong>COOPERSTOWN,NY</strong></span><i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
                     <!-- INFO -->
@@ -649,7 +592,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Mon July 6th</span>
+                      <span class="left">Mon July 6</span>
                       <span class="middle"><strong>COOPERSTOWN,NY/BOSTON,MA </strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -667,7 +610,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Tue July 7th</span>
+                      <span class="left">Tue July 7</span>
                       <span class="middle"><strong>BOSTON,MA </strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -685,7 +628,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Wed July 8th</span>
+                      <span class="left">Wed July 8</span>
                       <span class="middle"><strong>NEW YORK, NY </strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -703,7 +646,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Thu July 9th</span>
+                      <span class="left">Thu July 9</span>
                       <span class="middle"><strong>NEW YORK, NY </strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -720,7 +663,7 @@
                   <li>
                     <!-- DATE AND LOCATION -->
                     <div class="collapsible-header">
-                      <span class="left">Fri July 10 th</span>
+                      <span class="left">Fri July 10</span>
                       <span class="middle"><strong> SECAUCUS, NJ/ PHILADELPHIA, PA </strong></span>
                       <i class="mdi-hardware-keyboard-arrow-down right"></i>
                     </div>
@@ -741,19 +684,79 @@
           </div>
         </div>
 
+
+
+
+        <!-- TWITTER -->
+        <div class="twitter-col col s12 m5">
+          <h3 class="center-align header">Social</h3>
+          <div class="card">
+            <a class="twitter-timeline" href="https://twitter.com/AndersonMonarch" data-widget-id="604633035334660096">Tweets by @AndersonMonarch</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+        </div>
+
+
+
+
+        <!-- MAP -->
+        <div class="col s12 m5 center-align" style="  margin-top: 4em;">
+            <h3 class="center-align header">Contact</h3>
+          <div class="card contact-card">
+            <div class="card-content">
+          <!-- GOOGLE MAPS -->
+            <div id="location" class="container content">
+              <div class="map">
+                  <div class="border">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.9715071044734!2d-75.1711575!3d39.94202700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c63dcf814fb5%3A0x7e719ca29622cd94!2s744+S+17th+St%2C+Philadelphia%2C+PA+19146!5e0!3m2!1sen!2sus!4v1423078286802" width="250px"  height="250px" frameborder="0" style="border:0"></iframe>
+                  </div> 
+                </div>
+            </div>
+            <p>Mailing Address</p>
+            <p>744 S. 17th St. Philadelphia, PA 19146</p>
+            </div>
+            <div id="contact-foot" class="card-action">
+              <a href="tel:+9999999999"><li><i class="mdi-maps-local-phone"></i></li></a>
+              <a href="mailto:stevebandura@aol.com"><li><i class="fa fa-envelope waves-effect"></i></li></a> 
+              <a target="_blank" href="https://www.facebook.com/andersonmonarchs?fref=ts"><li><i class="fa fa-facebook waves-effect"></i></li></a>
+              <a href="https://twitter.com/AndersonMonarch"><li><i class="fa fa-twitter waves-effect"></i></li></a>
+              <a target="_blank" href="http://instagram.com/theandersonmonarchs?"><li><i class="fa fa-instagram waves-effect"></i></li></a>
+            </div>
+          </div>
+        </div>
+          
     </div>
- </div> 
+    <!-- sponsor and featured row -->
+    <div class="row bottom-row">
+        <!-- SPONSOR and CONTACT SECTION -->
+        <div class="col s12 m4 sponsor-home">
+          <!-- sponsor row -->
+            <h3 class="center-align header">Sponsors</h3>
+            <div class="card sponsor-card">
+              <div class="col s12 center-align">
+                <a href="http://www.chevrolet.com/"><img src="img/chevy-logo.jpeg" alt="Chevy Logo"></a>
+                <a href="http://mlb.mlb.com/home"><img src="img/mlb-logo 2.jpg" alt="MLB LOGO"></a>
+                <a href="http://www.townsendpress.net/home"><img src="img/townsend.jpg" alt=""></a>
+                <a href="http://www.easton.com/"><img src="img/easton-logo.jpg" alt=""></a>
+              </div>
+            </div>
+        </div>
+
+
+        <!-- FEATURED SECTION -->
+    </div>
+ </div>
 
     <footer class="page-footer">
       <div class="container">
         <div class="row">
-          <div class="col l6 s12">
+          <div class="col l8 s12">
             <h4 class="grey-text text-lighten-4">"A life is not important except in the impact it has on other lives."</h4>
             <h4 class="grey-text text-lighten-4 right-align"> - Jackie Robinson</h4>
 
 
           </div>
-          <div class="col l3 s6 right-align">
+          <div class="col l2 s6 right-align">
             <h5 class="white-text">Pages</h5>
             <ul class="footer-contact">
               <li><a href="about/index.html">About</a></li>
@@ -765,7 +768,7 @@
               <li id="login"><a href="contact/index.html">Login</a></li>
             </ul>
           </div>
-          <div class="col l3 s6 right-align">
+          <div class="col l2 s6 right-align">
             <h5 class="white-text">Contact</h5>
             <ul class="footer-contact right-align">
                 <a href="tel:+9999999999"><li><i class="mdi-maps-local-phone waves-effect"></i></li></a>
@@ -792,12 +795,14 @@
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-64093027-1', 'auto');
+          ga('send', 'pageview');
+
         </script>
     </body>
 </html>

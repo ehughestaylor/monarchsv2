@@ -33,8 +33,93 @@
               width: 100%;
               height: 100%;
               z-index: 9999;
-              background: url(../img/logo.png) center no-repeat #F4F3F5;
+              background:#F4F3F5;
             }
+            @keyframes moveOver {
+              0% {
+                left: 0;
+              }
+              5%{
+                background-size: 20%;
+              }
+              50% {
+                left: 50%;
+                background-size: 30%;
+              }
+              100% {
+                left:100%;
+                visibility: hidden; 
+                background-size: 60%;             
+              }
+            }
+            @-webkit-keyframes moveOver{
+              0% {
+                left: 0;
+                background-size: 0%;
+              }
+              5%{
+                background-size: 20%;
+              }
+              50% {
+                left: 50%;
+                background-size: 30%;
+              }
+              100% {
+                left:100%;
+                background-size: 60%;
+                visibility: hidden;
+              }
+            }
+            @-moz-keyframes moveOver{
+              0% {
+                left: 0;
+                background-size: 0%;
+              }
+              5%{
+                background-size: 20%;
+              }
+              50% {
+                left: 50%;
+                background-size: 30%;
+              }
+              100% {
+                left:100%;
+                background-size: 60%;
+                visibility: hidden;
+              }
+            }
+            @-o-keyframes moveOver{
+              0% {
+                left: 0;
+                background-size: 0%;
+              }
+              5%{
+                background-size: 20%;
+              }
+              50% {
+                left: 50%;
+                background-size: 30%;
+              }
+              100% {
+                left:100%;
+                background-size: 60%;
+                visibility: hidden;
+              }
+            }
+
+
+            .se-img{
+              background-image: url(../img/logo.png);
+              background-repeat: no-repeat;
+              height: 300px;
+              width: 300px;
+              top: 40%;
+              position: absolute;
+              animation: moveOver 2s linear;
+              animation-iteration-count: 1;
+              -webkit-animation: moveOver 2s linear;animation: moveOver 2s linear;
+              }
+          
         </style>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../css/main.css">
@@ -43,7 +128,9 @@
 
     </head>
     <body id="tour">
-    <div class="se-pre-con"></div>
+    <div class="se-pre-con">
+      <div class="se-img"></div>
+    </div>
   <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
@@ -51,7 +138,8 @@
       <div class="nav-wrapper container">
         <h1 id="anderson" style="padding-right:10px;">Anderson</h1> <img id="logo" src="../img/monarchs.png" height="150" alt=""><h1 id="monarchs" style="padding-left:10px;">Monarchs</h1>
       </div>
-        <a id="donate" target="_blank" href="https://www.justgive.org/basket?acton=donate&amp;ein=23-2593423" class="btn btn-large">Donate Now!</a>  
+        <a id="donate" target="_blank" href="https://www.justgive.org/basket?acton=donate&amp;ein=23-2593423" class="btn btn-large">Donate Now!</a>
+        <a id="contest" href="../contest/index.html">#ImOnBoard</a>  
     </nav>
   <nav id="nav" role="navigation"> <!-- add id of nav to make sticky header -->
     <div class="nav-wrapper">
@@ -81,6 +169,7 @@
     <!-- mobile nav -->
     <ul id="nav-mobile" class="side-nav">
       <li><a href="../index.html">Home</a></li>
+      <li><a href="../contest/index.html">Contest</a></li>
       <li><a href="../about/index.html">About</a></li>
       <li><a href="../blog/index.html">Blog</a></li>
       <li class="active"><a href="#">Tour</a></li>
@@ -118,7 +207,7 @@
                 <div class="card-panel">
                   <img src="../img/team.png" alt="team photo" class="responsive-img">
                   <div class="white-text">
-                  <p>This summer, as a tribute to Jackie Robinson, the Negro Leagues, and the Civil Rights Movement, our 13 year-old Anderson Monarchs will board an authentic 1947 Flxible Clipper touring bus, and embark on a 21-day, 19-city journey – barnstorming their way across America – down through the Deep South, up through the Mid-West, and back east to New York City and, ultimately, back home to Philadelphia – over 4000 miles in all.</p>
+                  <p>This summer, as a tribute to Jackie Robinson, the Negro Leagues, and the Civil Rights Movement, our 13 year-old Anderson Monarchs will board an authentic 1947 Flxible Clipper touring bus, and embark on a 23-day, 21-city journey – barnstorming their way across America – down through the Deep South, up through the Mid-West, and back east to New York City and, ultimately, back home to Philadelphia – over 4000 miles in all.</p>
                   <p>The young Monarchs will be getting a first-hand look at the places where the major civil rights events of the 20th century took place. They will meet people who were involved in the Movement, as well as African American ballplayers who played during this era. They’ll also play games against local youth teams in every city and get a chance to make new friends from all around the country.</p>
                   <p>The young Monarchs will experience, first hand, what life on the road was like for black players in the first half of the 20th century. They’ll be kids in a time capsule travelling back through time. They won’t just be reading about history - they’ll be living it!</p>
                   <p>Along the way, The Monarchs will play games against local youth teams, meet surviving players from the Negro Leagues, visit historic sites - such as Jackie Robinson's grave site in Brooklyn, Wrigley Field, the Field of Dreams in Iowa, the Negro Leagues Baseball Museum, the Louisville Slugger Museum, the three remaining stadiums in the country which Negro League teams called home, and the National Baseball Hall of Fame in Cooperstown, NY.</p>
@@ -270,7 +359,7 @@
                 <li><strong>Favorite Baseball Player:</strong>Andrew McCutchen</li></li></li>
                 <br>
                 <li><strong>Favorite Movie:</strong>Get Hard</li></li></li>
-                <li class="center-align" style="margin-top:0.5em; font-size:1.2em;"><i class="fa fa-instagram"></i> @jahlihendrickss</li>
+                <li class="center-align" style="margin-top:0.5em; font-size:1.2em;"><i class="fa fa-instagram"></i> @alexbestintheworld</li>
               </ul>
             </div>
           </div>          
@@ -483,7 +572,7 @@
                 <br>
                 <li><strong>Nickname:</strong>Mo</li>
                 <br>
-                <li><strong>Walk Up Song:</strong>Who Run the Girl</li>
+                <li><strong>Walk Up Song:</strong>Who Run the World (Girls)</li>
                 <br>
                 <li><strong>Favorite Food:</strong>Pizza</li>
                 <br>
@@ -698,13 +787,13 @@
     <footer class="page-footer">
       <div class="container">
         <div class="row">
-          <div class="col l6 s12">
+          <div class="col l8 s12">
             <h4 class="grey-text text-lighten-4">"A life is not important except in the impact it has on other lives."</h4>
             <h4 class="grey-text text-lighten-4 right-align"> - Jackie Robinson</h4>
 
 
           </div>
-          <div class="col l3 s12 right-align">
+          <div class="col l2 s6 right-align">
             <h5 class="white-text">Pages</h5>
             <ul class="footer-contact">
               <li><a href="../index.html">Home</a></li>
@@ -716,7 +805,7 @@
               <li id="login"><a href="contact/index.html">Login</a></li>
             </ul>
           </div>
-          <div class="col l3 s12 right-align">
+          <div class="col l2 s6 right-align">
             <h5 class="white-text">Contact</h5>
             <ul class="footer-contact right-align">
                 <a href="tel:+9999999999"><li><i class="mdi-maps-local-phone waves-effect"></i></li></a>
@@ -744,12 +833,14 @@
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-64093027-1', 'auto');
+          ga('send', 'pageview');
+
         </script>
     </body>
 </html>
